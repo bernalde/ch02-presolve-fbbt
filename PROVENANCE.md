@@ -1,0 +1,7 @@
+> Current local stage: Completed local compilation, every selected axiom census and genuine sandboxed Comparator with Lean, NanoDa and con-ron passed. Independent bounded source/package review returned ACCEPT_WITH_DOCUMENTARY_CLOSEOUT with no mandatory mathematical or mechanical finding. Exact receipts, review hashes, warnings, cache/resource/runtime/usage limits and unchanged proof/compiler inputs are in VERIFICATION.json. Independent documentary-delta closure and exact software-only export are recorded separately by the coordinator. New public commit/release, hosted preflight, service submission/review and registration have not occurred.
+
+# Provenance
+
+All source modules in SOURCE-MANIFEST.json are byte-identical to the accepted current Lean4.35 development and the retained published proof archive. Historical source-science acceptance and migration evidence are reused only at their issued scope. The new independent statement surface and its completed source aliases require fresh packet checking and independent source-first review, whose factual stages live in VERIFICATION.json and formalization.yaml.
+
+No original thesis/publisher document, historical data or private audit trace is redistributed. Copied support/control declarations remain support. This package does not authenticate software, numerical experiments or historical hardware, and makes no human-peer-review or new-theorem-credit claim. Native helper usage/model identity/cost/billing and parent overlap remain unavailable; only the coordinator writes the usage ledger.

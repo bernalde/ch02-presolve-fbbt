@@ -1,0 +1,290 @@
+version: v0.4
+project:
+  name: Finite affine presolve and qualified simultaneous FBBT
+  description: 'The finite affine row-fold contracts and preserves the explicitly bounded full original
+    model and its minimizers. Attained relaxed coordinate enclosures, closed incumbent-cutoff bounds and
+    final-retained-row redundancy certificates are exposed. The distinct finite simultaneous real (X,B)
+    procedure is exposed through its complete qualified theory and full source-model bridge: actual-run/fixed-state/scalar-LP
+    equivalence, and conditional endpoint convergence, greatest fixed box and unique attained entire-assignment
+    width optimum. LP infeasibility gives bounded-source infeasibility without assuming a nonempty run.'
+  authors:
+  - David E. Bernal Neira
+  responsible_maintainers:
+  - David E. Bernal Neira
+  license: Apache-2.0
+repository:
+  role: substantive-development
+classification:
+  arxiv:
+  - math.OC
+  msc2020:
+  - 90C11
+  - 90C30
+sources:
+- title: Modern computational approaches to nonlinear discrete optimization and applications in process
+    systems engineering
+  authors:
+  - David E. Bernal Neira
+  type: other
+  relationship: adapts
+  location: CMU Ph.D. thesis2021, Chapter2, convexminlpreview.tex; see SOURCE-MAPPING.md for exact passages.
+  note: 'Original thesis convexminlpreview.tex lines186–192 / printed p36 / PDF74 describes housekeeping,
+    sequential FBBT, relaxed coordinate optimization and lifting context. The finite affine preservation
+    route uses image extrema, signed inverse bounds and a literal finite row fold; coordinate and redundancy
+    certificates make bounded subclaims precise. formal/CH02-presolve-bounds-certificate.md and formal/CH02-affine-propagation-certificate.md
+    delimit prior accepted scopes. formal/CH02-fbbt-source-certificate.md binds the distinct qualified
+    Belotti2010 simultaneous interpretation: final COCOA2010 printed pp71–73/PDF7–9, equations9–11 and13–34,
+    with normalized row indices, sign branch and explicit zero products, clipping both(X,B). The thesis
+    overview does not itself state this LP theorem. Belotti2012 sequential recurrence and X-only objective
+    remain distinct. Existing certificate evidence is reused, with later Lean4.35 migration pins; no new
+    source-science certification is claimed.'
+- title: A review and comparison of solvers for convex MINLP
+  authors:
+  - Jan Kronqvist
+  - David E. Bernal
+  - Andreas Lundell
+  - Ignacio E. Grossmann
+  type: paper
+  relationship: background
+  location: Optimization and Engineering, 20, 397--455, 2019
+  note: Joint source review underlying Chapter2; bibliographic authorship does not imply responsibility
+    for this formalization or endorsement. Actual retained theorem scopes and source-version identities
+    are in SOURCE-MAPPING.md.
+  id: doi:10.1007/s11081-018-9411-8
+- title: Feasibility-based bounds tightening via fixed points
+  authors:
+  - Pietro Belotti
+  - Sonia Cafieri
+  - Jon Lee
+  - Leo Liberti
+  type: paper
+  relationship: adapts
+  location: COCOA 2010 final printed article, pp.65–76; finite simultaneous operator/LP correspondence
+    at printed pp.71–73, equations9–34.
+  note: Source authorship is distinct from formalization responsibility; no other author endorsement or
+    new mathematical novelty is claimed. Qualified simultaneous (X,B) interpretation only; source index/sign/zero-product/clipping
+    normalizations are disclosed in SOURCE-MAPPING.md. The held2012sequential extension and its X-only
+    objective remain separate.
+- title: Mixed-integer nonlinear optimization
+  authors:
+  - Pietro Belotti
+  - Christian Kirches
+  - Sven Leyffer
+  - Jeff Linderoth
+  - James Luedtke
+  - Ashutosh Mahajan
+  type: paper
+  relationship: adapts
+  location: Held author manuscript with cover dated November 22, 2012 (bibliographic key Belotti2013),
+    123 PDF pages; relaxed coordinate-bound, presolve and model context.
+  note: Source authorship is distinct from formalization responsibility; no other author endorsement or
+    new mathematical novelty is claimed. The held author manuscript is not asserted identical to a final
+    journal edition; native final-row deletion and finite-schedule details are labelled formal interpretations.
+    Actual held SHA256 c898a3780a3de6ccec1f3fa283f417e9b8d491e2c7d3469c8ff56dccc323c8fa; the bibliographic
+    2013 journal citation is distinct from the held author-version cover date. The preserved recovery
+    URL is https://www.ieor.iitb.ac.in/files/faculty/amahajan/papers/belotti2013mixed.pdf. No final-journal
+    byte identity is claimed.
+status:
+  scope: 'The finite affine row-fold contracts and preserves the explicitly bounded full original model
+    and its minimizers. Attained relaxed coordinate enclosures, closed incumbent-cutoff bounds and final-retained-row
+    redundancy certificates are exposed. The distinct finite simultaneous real (X,B) procedure is exposed
+    through its complete qualified theory and full source-model bridge: actual-run/fixed-state/scalar-LP
+    equivalence, and conditional endpoint convergence, greatest fixed box and unique attained entire-assignment
+    width optimum. LP infeasibility gives bounded-source infeasibility without assuming a nonempty run.
+    Sequential visits and the simultaneous operator remain different procedures. Both variable and row
+    intervals are clipped to the initial box; signs, zero products, empty families and canonical empty
+    states persist. No graph point follows from a nonempty fixed interval box. No unbounded-source equivalence,
+    nonlinear/integer propagation, rounding, finite stabilization, historical implementation, general
+    presolve completeness, runtime or empirical claim is certified. The full-width LP result is not transferred
+    to a variable-only objective.'
+  main_results:
+  - declaration: Chapter02.palomar_affine_propagate_contracts
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.palomar_affine_source_preservation
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.palomar_affine_source_empty_certificate
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.palomar_affine_source_minimizer_iff
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.palomar_compact_tightest_coordinate_enclosure
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.palomar_cutoff_bounds_preserve_minimizers
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.BBPolyData.palomar_feasible_coordinate_bounds
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02FBBT.palomar_qualified_simultaneous_fbbt
+    file: Solution.lean
+    comparator_config: comparator.json
+  - declaration: Chapter02FBBT.palomar_qualified_source_fbbt
+    file: Solution.lean
+    comparator_config: comparator.json
+  package_verification: Completed actual local checks and bounded independent review; exact evidence in
+    VERIFICATION.json. Exact documentary/export closure is separately retained by coordinator; all new
+    external stages remain unperformed.
+automation:
+  methods:
+  - method: agent
+    models: []
+    framework: Codex
+    tool_setup: Byte-identical accepted source closure; actual bounded packet build, all compared-root
+      axioms and genuine recursive computational comparison with Lean/NanoDa/con-ron. Full source-matcher
+      normalization, when present, is bound in SOURCE-MANIFEST.json and recursively checked.
+    prompting_notes: Preserve exact hypotheses, quantifiers, original-coordinate model, histories, initialization
+      and availability policies; no circular oracle premise or weakened source type.
+    cost:
+      spend_usd: unknown; native model/counters/inclusion and attributable billing unavailable
+      wall_time: Actual command durations and resource peaks in the hashed controlled-runner result; model
+        time/cost unattributed.
+      hardware: Local Linux12GiB/no-swap/two-CPU limit; pinned upstream cache shared read-only, candidate
+        project modules compiled.
+  notes: No new theorem credit. Native helper token counters, observed runtime identity, billing and parent
+    inclusion/overlap unavailable. Only coordinator writes ledger. Subsequent coordinator actual local
+    checks and bounded independent review are bound in VERIFICATION.json. Historical static preparation
+    method entries retain their original scope; native model/helper tokens, inclusion/overlap, estimated
+    cost and billing remain unknown.
+fidelity:
+  divergences: Sequential visits and the simultaneous operator remain different procedures. Both variable
+    and row intervals are clipped to the initial box; signs, zero products, empty families and canonical
+    empty states persist. No graph point follows from a nonempty fixed interval box. No unbounded-source
+    equivalence, nonlinear/integer propagation, rounding, finite stabilization, historical implementation,
+    general presolve completeness, runtime or empirical claim is certified. The full-width LP result is
+    not transferred to a variable-only objective.
+  comparison_boundary: Exact complete source theorem types and full computational definition bodies. No
+    definition exemption, checker disabling or source-theorem weakening.
+review:
+  status: agent-reviewed
+  notes: Independent bounded package/interface review ACCEPT_WITH_DOCUMENTARY_CLOSEOUT, no mathematical
+    or mechanical mandatory finding. Actual local build, all selected transitive axioms and genuine sandboxed
+    Comparator with Lean/NanoDa/con-ron passed; consult VERIFICATION.json for exact receipts, scope, warnings,
+    cache/resource/trust/usage and external-stage limits. Documentary successor closure is separately
+    recorded by the coordinator. Requested Astra/high is not observed runtime identity. No human peer
+    review or Palomar service verdict is claimed.
+alignment:
+  namespace: Chapter02 / Chapter02.BBPolyData / Chapter02FBBT
+  statements:
+  - source: Chapter02.affine_propagate_contracts
+    lean: Chapter02.palomar_affine_propagate_contracts
+    module: Solution
+    source_file: lean-modern/Chapter02AffinePropagation.lean
+    source_start_line: 94
+    signature_sha256: 359ee77afeb72c682e2bbf9f986a020b482accab01a54c6697f9adef3bbce0b6
+    note: Every literal finite schedule contracts its input Cartesian members.
+    status: exact source alias
+  - source: Chapter02.affine_source_preservation
+    lean: Chapter02.palomar_affine_source_preservation
+    module: Solution
+    source_file: lean-modern/Chapter02AffinePropagationSource.lean
+    source_start_line: 43
+    signature_sha256: e245e66af7b3939f0f8a3f346f6850726a14d32de67bd05bc65ba3b791ebf00e
+    note: The bounded full original affine/nonlinear/integer model and unchanged objective are retained
+      for arbitrary finite visits, including repeats or omissions.
+    status: exact source alias
+  - source: Chapter02.affine_source_empty_certificate
+    lean: Chapter02.palomar_affine_source_empty_certificate
+    module: Solution
+    source_file: lean-modern/Chapter02AffinePropagationSource.lean
+    source_start_line: 57
+    signature_sha256: 3e8072794f92f601f6bba71e142b6df51dea3f64cd143d9c4c10b3e670ac0509
+    note: The bounded full original affine/nonlinear/integer model and unchanged objective are retained
+      for arbitrary finite visits, including repeats or omissions.
+    status: exact source alias
+  - source: Chapter02.affine_source_minimizer_iff
+    lean: Chapter02.palomar_affine_source_minimizer_iff
+    module: Solution
+    source_file: lean-modern/Chapter02AffinePropagationSource.lean
+    source_start_line: 64
+    signature_sha256: 279d84d105181590dffd53e09c59788263a2aea40fa87ba8105068ada15c49dc
+    note: The bounded full original affine/nonlinear/integer model and unchanged objective are retained
+      for arbitrary finite visits, including repeats or omissions.
+    status: exact source alias
+  - source: Chapter02.compact_tightest_coordinate_enclosure
+    lean: Chapter02.palomar_compact_tightest_coordinate_enclosure
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveBounds.lean
+    source_start_line: 81
+    signature_sha256: 5ee5ef7e6fa0b0aff3cdef78218d7902eebe9e6828ad86a1062bbc535416f913
+    note: Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent
+      cutoff; no original hull or assumed attained bound.
+    status: exact source alias
+  - source: Chapter02.cutoff_bounds_preserve_minimizers
+    lean: Chapter02.palomar_cutoff_bounds_preserve_minimizers
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveBounds.lean
+    source_start_line: 121
+    signature_sha256: 528803b5d4fe7d4c81f583fce72f63e92a46af49da6ab6e890c6cf826c522cfd
+    note: Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent
+      cutoff; no original hull or assumed attained bound.
+    status: exact source alias
+  - source: Chapter02.BBPolyData.retained_feasible_eq_of_certificates
+    lean: Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveRedundancy.lean
+    source_start_line: 79
+    signature_sha256: 244871b57100bb3480b7ac8d46ae02a8e40242a911c080ea7620b458690ba45c
+    note: All deletion certificates use the same final retained row set; original nonlinear/integer restrictions,
+      arbitrary base and objective persist.
+    status: exact source alias
+  - source: Chapter02.BBPolyData.retained_minimizer_iff_of_certificates
+    lean: Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveRedundancy.lean
+    source_start_line: 88
+    signature_sha256: 8e35633c155fe0abdff3abee820587410100d98778eeff1f657abf7e2004cf31
+    note: All deletion certificates use the same final retained row set; original nonlinear/integer restrictions,
+      arbitrary base and objective persist.
+    status: exact source alias
+  - source: Chapter02.BBPolyData.feasible_coordinate_bounds
+    lean: Chapter02.BBPolyData.palomar_feasible_coordinate_bounds
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveRedundancy.lean
+    source_start_line: 114
+    signature_sha256: 6bfb83db0b3807bf4f795541f1ef1db163fcd9856dad01eca506edcba8877535
+    note: All deletion certificates use the same final retained row set; original nonlinear/integer restrictions,
+      arbitrary base and objective persist.
+    status: exact source alias
+  - source: Chapter02.BBPolyData.feasible_cutoff_bounds_minimizer_iff
+    lean: Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff
+    module: Solution
+    source_file: lean-modern/Chapter02PresolveRedundancy.lean
+    source_start_line: 125
+    signature_sha256: ae1ecf174013f96bdefe393063817d3f0afbc9bef29e3598265843ab6cb71c5d
+    note: All deletion certificates use the same final retained row set; original nonlinear/integer restrictions,
+      arbitrary base and objective persist.
+    status: exact source alias
+  - source: Chapter02FBBT.qualified_simultaneous_fbbt
+    lean: Chapter02FBBT.palomar_qualified_simultaneous_fbbt
+    module: Solution
+    source_file: lean-modern/Chapter02FBBTTheorem.lean
+    source_start_line: 135
+    signature_sha256: b2ed3aae5f0259d5a4a5da039cc60e172037bc8885442aeb212eba6c7c2f0c73
+    note: 'Complete qualified finite simultaneous (X,B) theory: actual public/raw runs, fixed states,
+      independent scalar LP, conditional limit and unique full-width optimum.'
+    status: exact source alias
+  - source: Chapter02FBBT.qualified_source_fbbt
+    lean: Chapter02FBBT.palomar_qualified_source_fbbt
+    module: Solution
+    source_file: lean-modern/Chapter02FBBTSourceTheorem.lean
+    source_start_line: 67
+    signature_sha256: 51a281c22a8e24f7e3744ce2af0f5df67fa251c2c6c6e6292315610e15e1513b
+    note: Complete bounded original-coordinate source theory; unconditional LP infeasibility and separately
+      conditional nonempty-run limit/minimizer conclusions.
+    status: exact source alias
+acknowledgements: Cited/joint source researchers, Lean/Mathlib contributors, and AI-assisted formal development.
+  Bibliographic authorship and formalization responsibility are distinct; no other source-author endorsement
+  is claimed.

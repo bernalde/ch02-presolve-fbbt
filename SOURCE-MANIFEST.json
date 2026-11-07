@@ -1,0 +1,873 @@
+{
+  "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+  "family": "C2-PRESOLVE",
+  "source_modules": [
+    {
+      "module": "Chapter02",
+      "file": "Chapter02.lean",
+      "source": "lean-modern/Chapter02.lean",
+      "sha256": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af"
+    },
+    {
+      "module": "Chapter02Model",
+      "file": "Chapter02Model.lean",
+      "source": "lean-modern/Chapter02Model.lean",
+      "sha256": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535"
+    },
+    {
+      "module": "Chapter02AffineBox",
+      "file": "Chapter02AffineBox.lean",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "sha256": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297"
+    },
+    {
+      "module": "Chapter02AffinePropagation",
+      "file": "Chapter02AffinePropagation.lean",
+      "source": "lean-modern/Chapter02AffinePropagation.lean",
+      "sha256": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6"
+    },
+    {
+      "module": "Chapter02BBAffine",
+      "file": "Chapter02BBAffine.lean",
+      "source": "lean-modern/Chapter02BBAffine.lean",
+      "sha256": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c"
+    },
+    {
+      "module": "Chapter02BBBounds",
+      "file": "Chapter02BBBounds.lean",
+      "source": "lean-modern/Chapter02BBBounds.lean",
+      "sha256": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858"
+    },
+    {
+      "module": "Chapter02BBAdapter",
+      "file": "Chapter02BBAdapter.lean",
+      "source": "lean-modern/Chapter02BBAdapter.lean",
+      "sha256": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
+    },
+    {
+      "module": "Chapter02AffinePropagationSource",
+      "file": "Chapter02AffinePropagationSource.lean",
+      "source": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "sha256": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2"
+    },
+    {
+      "module": "Chapter02AffinePropagationExamples",
+      "file": "Chapter02AffinePropagationExamples.lean",
+      "source": "lean-modern/Chapter02AffinePropagationExamples.lean",
+      "sha256": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35"
+    },
+    {
+      "module": "Chapter02FBBTBounds",
+      "file": "Chapter02FBBTBounds.lean",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "sha256": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883"
+    },
+    {
+      "module": "Chapter02FBBTOperator",
+      "file": "Chapter02FBBTOperator.lean",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "sha256": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591"
+    },
+    {
+      "module": "Chapter02FBBTOrder",
+      "file": "Chapter02FBBTOrder.lean",
+      "source": "lean-modern/Chapter02FBBTOrder.lean",
+      "sha256": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba"
+    },
+    {
+      "module": "Chapter02FBBTPreservation",
+      "file": "Chapter02FBBTPreservation.lean",
+      "source": "lean-modern/Chapter02FBBTPreservation.lean",
+      "sha256": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee"
+    },
+    {
+      "module": "Chapter02FBBTLP",
+      "file": "Chapter02FBBTLP.lean",
+      "source": "lean-modern/Chapter02FBBTLP.lean",
+      "sha256": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39"
+    },
+    {
+      "module": "Chapter02FBBTLimit",
+      "file": "Chapter02FBBTLimit.lean",
+      "source": "lean-modern/Chapter02FBBTLimit.lean",
+      "sha256": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f"
+    },
+    {
+      "module": "Chapter02FBBTContinuity",
+      "file": "Chapter02FBBTContinuity.lean",
+      "source": "lean-modern/Chapter02FBBTContinuity.lean",
+      "sha256": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf"
+    },
+    {
+      "module": "Chapter02FBBTTheorem",
+      "file": "Chapter02FBBTTheorem.lean",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "sha256": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48"
+    },
+    {
+      "module": "Chapter02FBBTBoundaryControls",
+      "file": "Chapter02FBBTBoundaryControls.lean",
+      "source": "lean-modern/Chapter02FBBTBoundaryControls.lean",
+      "sha256": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc"
+    },
+    {
+      "module": "Chapter02FBBTContractionControl",
+      "file": "Chapter02FBBTContractionControl.lean",
+      "source": "lean-modern/Chapter02FBBTContractionControl.lean",
+      "sha256": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896"
+    },
+    {
+      "module": "Chapter02FBBTContractionApplication",
+      "file": "Chapter02FBBTContractionApplication.lean",
+      "source": "lean-modern/Chapter02FBBTContractionApplication.lean",
+      "sha256": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854"
+    },
+    {
+      "module": "Chapter02FBBTSourceData",
+      "file": "Chapter02FBBTSourceData.lean",
+      "source": "lean-modern/Chapter02FBBTSourceData.lean",
+      "sha256": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b"
+    },
+    {
+      "module": "Chapter02FBBTControlData",
+      "file": "Chapter02FBBTControlData.lean",
+      "source": "lean-modern/Chapter02FBBTControlData.lean",
+      "sha256": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6"
+    },
+    {
+      "module": "Chapter02FBBTSourceTheorem",
+      "file": "Chapter02FBBTSourceTheorem.lean",
+      "source": "lean-modern/Chapter02FBBTSourceTheorem.lean",
+      "sha256": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640"
+    },
+    {
+      "module": "Chapter02FBBTSourceControl",
+      "file": "Chapter02FBBTSourceControl.lean",
+      "source": "lean-modern/Chapter02FBBTSourceControl.lean",
+      "sha256": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe"
+    },
+    {
+      "module": "Chapter02FBBTControls",
+      "file": "Chapter02FBBTControls.lean",
+      "source": "lean-modern/Chapter02FBBTControls.lean",
+      "sha256": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed"
+    },
+    {
+      "module": "Chapter02FBBTNegativeRhsControl",
+      "file": "Chapter02FBBTNegativeRhsControl.lean",
+      "source": "lean-modern/Chapter02FBBTNegativeRhsControl.lean",
+      "sha256": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b"
+    },
+    {
+      "module": "Chapter02PresolveBounds",
+      "file": "Chapter02PresolveBounds.lean",
+      "source": "lean-modern/Chapter02PresolveBounds.lean",
+      "sha256": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f"
+    },
+    {
+      "module": "Chapter02PresolveRedundancy",
+      "file": "Chapter02PresolveRedundancy.lean",
+      "source": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "sha256": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253"
+    },
+    {
+      "module": "Chapter02PresolveBoundsExamples",
+      "file": "Chapter02PresolveBoundsExamples.lean",
+      "source": "lean-modern/Chapter02PresolveBoundsExamples.lean",
+      "sha256": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585"
+    }
+  ],
+  "independent_statement_definitions": [
+    {
+      "declaration": "Chapter02.RealVector",
+      "kind": "abbrev",
+      "source": "lean-modern/Chapter02.lean",
+      "source_start_line": 22,
+      "slice_sha256": "735de4fc75e26ecc32be85a050bc9e2a875fe7e89bc945ec1bb9bdae6c2c5b0d"
+    },
+    {
+      "declaration": "Chapter02.IsMinimizer",
+      "kind": "def",
+      "source": "lean-modern/Chapter02.lean",
+      "source_start_line": 76,
+      "slice_sha256": "f4fbc9478d616732534281c1d9b8869ad9fbab06940f2d03bb3121f5c1ad6ef7"
+    },
+    {
+      "declaration": "Chapter02.IsLowerBound",
+      "kind": "def",
+      "source": "lean-modern/Chapter02.lean",
+      "source_start_line": 79,
+      "slice_sha256": "6000a4c44c4706afe07dffd22326a62ca81349fbe5561bd4250969b49e648a9d"
+    },
+    {
+      "declaration": "Chapter02.HasUpperBoundWitness",
+      "kind": "def",
+      "source": "lean-modern/Chapter02.lean",
+      "source_start_line": 82,
+      "slice_sha256": "76c45bc6b9a6e7628205888f05bfe6f2e7024fbaf99b875663a73c77f92c65d5"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02BBAdapter.lean",
+      "source_start_line": 108,
+      "slice_sha256": "a4c026b0ac09d5cac1326d74aa8625ef7c77141dccbe1a88ce6aeca3503862ff"
+    },
+    {
+      "declaration": "Chapter02.AffineBox",
+      "kind": "inductive",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 13,
+      "slice_sha256": "1212c5ec78db54780018da18fb3515abd7ea67e1fff401e85b14e70a442af9e4"
+    },
+    {
+      "declaration": "Chapter02.AffineBox.members",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 17,
+      "slice_sha256": "8feb0624766d83f02f29825e5b5f4a4e32e246ded38d3dcaffc1f41b3f9d2411"
+    },
+    {
+      "declaration": "Chapter02.AffineBox.ofBounds",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 21,
+      "slice_sha256": "ee7ddc46a5945e2c7b66ea97cc54ffa54810313365fca8e4c3d9ecd1a2347af5"
+    },
+    {
+      "declaration": "Chapter02.affineProductLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 37,
+      "slice_sha256": "669b3b432346eab6e6ab40127ea1b6853cba1f221d10536380bfd551fd49078c"
+    },
+    {
+      "declaration": "Chapter02.affineProductHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 38,
+      "slice_sha256": "923be5b5028eeb2eddf43547b90aad6cc5d6e236d904fa6a4c88b0f04696fe98"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 49,
+      "slice_sha256": "82d61baa4695bd82b1de2f982c565bf14849f2fd883e7a75fedea6c2f74816e1"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.value",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 55,
+      "slice_sha256": "85569480614ab5bbf979d37f8f75c1a4485f8dff4a03b70399005d45d5f3a973"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.Holds",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 58,
+      "slice_sha256": "b705e8555496f3572d490935dd771d3eac52e5bf62baade5ad90360a70fd7a9b"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.imageLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 61,
+      "slice_sha256": "0f3802e55750ad46bb299ef141c5756f4e7e37402ae5cd89f5b0aff4c5d5264d"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.imageHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 65,
+      "slice_sha256": "d8a5651fc62215e1932c3f4b830db806aae21f79cdf6a1ca4bc4e2b840e3c968"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.restLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 69,
+      "slice_sha256": "16239b5e4fc852dd44d298f052cee022751fe85f3b7b4a3d0d3954e71e7e3d54"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.restHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffineBox.lean",
+      "source_start_line": 73,
+      "slice_sha256": "7f095515399dcb7c2ab0eefad95241317ee2581a52f8c1ae2adcdf2c47235503"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.impliedLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagation.lean",
+      "source_start_line": 14,
+      "slice_sha256": "abae48849efa6bf85e1fd3a5192a933ea68c9063be02c401ddb045b923644e96"
+    },
+    {
+      "declaration": "Chapter02.AffineIntervalRow.impliedHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagation.lean",
+      "source_start_line": 20,
+      "slice_sha256": "1f9a5b181856cec7e058cf0068129805a5ea0eff06117db4817c1c52fb6ddef2"
+    },
+    {
+      "declaration": "Chapter02.affineRowStep",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagation.lean",
+      "source_start_line": 48,
+      "slice_sha256": "90e7a469cbc21f3d80838f4abf5f1cf00925a7edd1f8dec0232b7da758dcc618"
+    },
+    {
+      "declaration": "Chapter02.affinePropagate",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagation.lean",
+      "source_start_line": 90,
+      "slice_sha256": "a467ead25cbfa9a941b917c250de9c1886adb3c71e64564a4feafb359d384cc5"
+    },
+    {
+      "declaration": "Chapter02.affineSourceRow",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "source_start_line": 15,
+      "slice_sha256": "bcaedc3a6244d9a586d568c6f4667b653b94bbcc5c5e402c1afe52e7f6f23e51"
+    },
+    {
+      "declaration": "Chapter02.affineSourcePropagate",
+      "kind": "def",
+      "source": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "source_start_line": 37,
+      "slice_sha256": "c46dc226654107a0f8bd5a4cfb997d3db3463b970740f158d844ff7f40363a16"
+    },
+    {
+      "declaration": "Chapter02.coordinateEnclosure",
+      "kind": "def",
+      "source": "lean-modern/Chapter02PresolveBounds.lean",
+      "source_start_line": 14,
+      "slice_sha256": "6cc3bc3aa41d0a5507f9cc6f5fa41e5bc4ebcbcb3b540034ece530c6fab9a0a7"
+    },
+    {
+      "declaration": "Chapter02.cutoffSet",
+      "kind": "def",
+      "source": "lean-modern/Chapter02PresolveBounds.lean",
+      "source_start_line": 95,
+      "slice_sha256": "804ce242b90ad3789d26e07936c0d6db734730138c9d33cff9de085be286fd1a"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.polyhedron",
+      "kind": "def",
+      "source": "lean-modern/Chapter02BBAdapter.lean",
+      "source_start_line": 117,
+      "slice_sha256": "25e1be5f82eca26f830745b0bf92566a458611f98c34cb2eee0508c22d0493e0"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.feasible",
+      "kind": "def",
+      "source": "lean-modern/Chapter02BBAdapter.lean",
+      "source_start_line": 380,
+      "slice_sha256": "66258bc2a16e1a356f8b8ea8a54b4999a87877c6fa2e6af9ad1de6d9625a15df"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.retainedPolyhedron",
+      "kind": "def",
+      "source": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 20,
+      "slice_sha256": "ce5854017a84eb02acf57e153a3a319b8dca52e2784e32f886cd545944490e6a"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.retainedContinuous",
+      "kind": "def",
+      "source": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 23,
+      "slice_sha256": "77cab1651d8c1d9786bde9be7c34c2d6dd9be170c478ae419af44bdc631fe329"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.retainedFeasible",
+      "kind": "def",
+      "source": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 27,
+      "slice_sha256": "6bd78e049945bab56b764f60098c1c7906a12823c9f6b38b9a6168812222ddbc"
+    },
+    {
+      "declaration": "Chapter02.BBPolyData.RetainedRowCertificate",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 34,
+      "slice_sha256": "fbd02711d0c4d90f969ecc843ab4424f423273649f5c2ee0735741f624e09706"
+    },
+    {
+      "declaration": "Chapter02FBBT.Bounds",
+      "kind": "abbrev",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 13,
+      "slice_sha256": "a4a0318e7ae978f02ae13ae633956dbaa30db91bd7b10bb5f595bd9a292f979a"
+    },
+    {
+      "declaration": "Chapter02FBBT.Ordered",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 15,
+      "slice_sha256": "e0aac0037027ad80f176db01bd8d4b4f78726bce575e6b8c895e78d4b02bc58c"
+    },
+    {
+      "declaration": "Chapter02FBBT.Within",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 17,
+      "slice_sha256": "56822ba372dd22b8bcd6b389c434cc15d58ebddae3d08732193db55f1c8ca37e"
+    },
+    {
+      "declaration": "Chapter02FBBT.members",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 20,
+      "slice_sha256": "5d5e0737f5d72736e9899ab497a9ff79c9e5b750ae93b5f621480b0f63fa8bdc"
+    },
+    {
+      "declaration": "Chapter02FBBT.width",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 23,
+      "slice_sha256": "4591a0503911c53045563f50d2e1abdd8a54c61ae1598456a892431f05d87ddd"
+    },
+    {
+      "declaration": "Chapter02FBBT.clip",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTBounds.lean",
+      "source_start_line": 26,
+      "slice_sha256": "5cae14d382f96b24bc46f3de1f27eadfe3f65e94c25d4a76d3c4442304713ace"
+    },
+    {
+      "declaration": "Chapter02FBBT.Coordinates",
+      "kind": "abbrev",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 16,
+      "slice_sha256": "56484078d719f3197b799b2fc2244dd9e27469ed0ed65b10fa18388106012633"
+    },
+    {
+      "declaration": "Chapter02FBBT.Matrix",
+      "kind": "abbrev",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 17,
+      "slice_sha256": "b5dda4c00202dad1b1c23b0c9302a802d1295044aa5d0386a26b159b8483f9c1"
+    },
+    {
+      "declaration": "Chapter02FBBT.JointBounds",
+      "kind": "abbrev",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 18,
+      "slice_sha256": "871443f23a79310e1285d75f2b882cb85a11a4e9e3439110dcf3be496edbefa2"
+    },
+    {
+      "declaration": "Chapter02FBBT.productLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 20,
+      "slice_sha256": "f5c761b2e2fb1f84fd087ec5e4fd728a4ad2ce5243f23144857cbe96fa70f30c"
+    },
+    {
+      "declaration": "Chapter02FBBT.productHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 22,
+      "slice_sha256": "3316d39c9b4df743003059e30c82ce7bda8ac3c729ec4fc7e356cae4928e2d7e"
+    },
+    {
+      "declaration": "Chapter02FBBT.imageLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 24,
+      "slice_sha256": "63a48e72174ab84717a995b070da2a1440adefdd121dfff159427d930fd648ef"
+    },
+    {
+      "declaration": "Chapter02FBBT.imageHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 26,
+      "slice_sha256": "636c41236c866d92875ebcd269cf4de8e42ca8f73de0d90996948901210041ea"
+    },
+    {
+      "declaration": "Chapter02FBBT.restLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 28,
+      "slice_sha256": "00f010239b516ab43217f9d5dc94afa0777d12605470e4b6309040be220aaf52"
+    },
+    {
+      "declaration": "Chapter02FBBT.restHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 30,
+      "slice_sha256": "3f42b97832168f2f6b1113f393d6d6d2a30f6b6225f2ebd220989db2f3f8e0bd"
+    },
+    {
+      "declaration": "Chapter02FBBT.inverseLo",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 33,
+      "slice_sha256": "fdca88e0d0ba5b4f5d96031880ea0718fd307d8489e45680111cc1a5eb87d569"
+    },
+    {
+      "declaration": "Chapter02FBBT.inverseHi",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 37,
+      "slice_sha256": "8c167cca0527ad15fb5b17b5995891bc0e026e67e4bebff4c561294aa539983d"
+    },
+    {
+      "declaration": "Chapter02FBBT.seededMax",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 42,
+      "slice_sha256": "4d332befdee0b3b71a3fe087c0e49988730746f17209f943e0338b8cd420a64b"
+    },
+    {
+      "declaration": "Chapter02FBBT.seededMin",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 44,
+      "slice_sha256": "1685a8ee37b32864ca0d0288e7a2c35f3d4457fb50feeedecd72a9f68a3fef29"
+    },
+    {
+      "declaration": "Chapter02FBBT.upward",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 47,
+      "slice_sha256": "354c27988cd3808dd0d90419c1c68074b022b880d353cc17a78922c39bfcce8a"
+    },
+    {
+      "declaration": "Chapter02FBBT.downward",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 50,
+      "slice_sha256": "f39504e38c411cda836930dc59a782c89c54043ae43b73515fb797b4832bc1ff"
+    },
+    {
+      "declaration": "Chapter02FBBT.rawF",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 55,
+      "slice_sha256": "88fdba21c7133055a166bd8178326f3bdd77749315c0a72fab38e78c9111080c"
+    },
+    {
+      "declaration": "Chapter02FBBT.rawRun",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 57,
+      "slice_sha256": "737b45437cbfc3c8d44bfeb80fa6fcce81deea285c30c1b2c615654569d19316"
+    },
+    {
+      "declaration": "Chapter02FBBT.graph",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 60,
+      "slice_sha256": "e77c7b3324a3bb9e1e541a8fd24bbf5d265da002b528bd2cd611e9594ee0842e"
+    },
+    {
+      "declaration": "Chapter02FBBT.PublicState",
+      "kind": "inductive",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 63,
+      "slice_sha256": "60cbd32aff6360acc33780c34bb4add4b4634dfb5c4137e3a1fbf226e6272195"
+    },
+    {
+      "declaration": "Chapter02FBBT.publicOfBounds",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 67,
+      "slice_sha256": "5e83c0f1ea21e2452db40f9f9dad204ca85d908eb568e4e0110d2672b7e6cc75"
+    },
+    {
+      "declaration": "Chapter02FBBT.PublicState.members",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 69,
+      "slice_sha256": "878a255bbccecfcc6d78fe7ded1c22dff24c9358f19b2c10304e6fc70e8a85c0"
+    },
+    {
+      "declaration": "Chapter02FBBT.publicF",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 72,
+      "slice_sha256": "3a42d28562ccef4eb66e05ee7875777a39d140d690417269c99ffd2ef5412086"
+    },
+    {
+      "declaration": "Chapter02FBBT.publicRun",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 76,
+      "slice_sha256": "feef45ba0cd7a61326550859fa6a9c2299d6a804cc6dfea26563e034268eef9e"
+    },
+    {
+      "declaration": "Chapter02FBBT.LPAssignment",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 80,
+      "slice_sha256": "75e83ecbb22de306c9129b7b091453cd53dd5859d53bf3c53c7a15e1eabe1dc3"
+    },
+    {
+      "declaration": "Chapter02FBBT.LPFeasible",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 87,
+      "slice_sha256": "fd833fed3660490c90de3fb120be8f024eed5a46c9c3f518eb1243d05afadd36"
+    },
+    {
+      "declaration": "Chapter02FBBT.canonicalAssignment",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 105,
+      "slice_sha256": "6cb5ef1f6622c897ccfe2342cc86a559dc4d2d717f03a25db6020bfa048528c9"
+    },
+    {
+      "declaration": "Chapter02FBBT.LPObjective",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTOperator.lean",
+      "source_start_line": 107,
+      "slice_sha256": "812c65d06d346a6e435d3918dee06aff34efcb3ca6086beb9a0ba788e1ba1af6"
+    },
+    {
+      "declaration": "Chapter02FBBT.endpointLimit",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTLimit.lean",
+      "source_start_line": 34,
+      "slice_sha256": "8c9ed81178686f8302c1d8d2514c0793b5df94435e2979755424a5181ebdd551"
+    },
+    {
+      "declaration": "Chapter02FBBT.limitBounds",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 15,
+      "slice_sha256": "78c021630eb976fda035913bcb4a2cea4703f17a7eb6c437a4c7384f26dec5b3"
+    },
+    {
+      "declaration": "Chapter02FBBT.RunNonempty",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 18,
+      "slice_sha256": "05985d8a2a2f783baa9e286c02224ca3f9dc4b6e99163559d51be153ceab7edc"
+    },
+    {
+      "declaration": "Chapter02FBBT.FixedExists",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 21,
+      "slice_sha256": "a5bceb9faa5aa886ad7e79ffcaeb261e8b0eec70c26a9c73b8d7c7dc0bbcdb77"
+    },
+    {
+      "declaration": "Chapter02FBBT.SimultaneousConclusion",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 107,
+      "slice_sha256": "bc8246fdaf51af39e57f28c98291e0c066a3783bb4de9a3f498ea5c5409cc2a1"
+    },
+    {
+      "declaration": "Chapter02FBBT.SimultaneousTheory",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 125,
+      "slice_sha256": "93def18db5aa6aca84be7549ea9e3ed83467bd2603d8cbf2f3e0323c3bee87c8"
+    },
+    {
+      "declaration": "Chapter02FBBT.sourceLower",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTSourceData.lean",
+      "source_start_line": 18,
+      "slice_sha256": "a3d5093a93add938e1e1a51c6f5c370e0fe0d675fda2129e113153b1fa98304d"
+    },
+    {
+      "declaration": "Chapter02FBBT.sourceInitial",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTSourceData.lean",
+      "source_start_line": 21,
+      "slice_sha256": "34c45d2814285994fe94cc39a287d27bf48f0c374a074045db2d124370f50304"
+    },
+    {
+      "declaration": "Chapter02FBBT.sourceGraph",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTSourceData.lean",
+      "source_start_line": 25,
+      "slice_sha256": "b6b054fb8d2920fca1925da917a48097c1a6720f600ab40d9582a27b6f54afab"
+    },
+    {
+      "declaration": "Chapter02FBBT.sourceLimitX",
+      "kind": "def",
+      "source": "lean-modern/Chapter02FBBTSourceTheorem.lean",
+      "source_start_line": 16,
+      "slice_sha256": "4de2932d1de3fcf37b38dd5bf20776f556bbef0ed92d16fdd1ab99d667813b68"
+    },
+    {
+      "declaration": "Chapter02FBBT.SourceConclusion",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02FBBTSourceTheorem.lean",
+      "source_start_line": 45,
+      "slice_sha256": "ea37491198963f3af7248d6369798c4763092456164cf55b9faeab2639a7d259"
+    },
+    {
+      "declaration": "Chapter02FBBT.SourceTheory",
+      "kind": "structure",
+      "source": "lean-modern/Chapter02FBBTSourceTheorem.lean",
+      "source_start_line": 55,
+      "slice_sha256": "56c9324cabe8cbced3d6c637d957ba79b5514ed1e5cd7a65c1ca70afc19055e0"
+    }
+  ],
+  "theorem_mappings": [
+    {
+      "source": "Chapter02.affine_propagate_contracts",
+      "lean": "Chapter02.palomar_affine_propagate_contracts",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02AffinePropagation.lean",
+      "source_start_line": 94,
+      "signature_sha256": "359ee77afeb72c682e2bbf9f986a020b482accab01a54c6697f9adef3bbce0b6",
+      "note": "Every literal finite schedule contracts its input Cartesian members.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.affine_source_preservation",
+      "lean": "Chapter02.palomar_affine_source_preservation",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "source_start_line": 43,
+      "signature_sha256": "e245e66af7b3939f0f8a3f346f6850726a14d32de67bd05bc65ba3b791ebf00e",
+      "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.affine_source_empty_certificate",
+      "lean": "Chapter02.palomar_affine_source_empty_certificate",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "source_start_line": 57,
+      "signature_sha256": "3e8072794f92f601f6bba71e142b6df51dea3f64cd143d9c4c10b3e670ac0509",
+      "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.affine_source_minimizer_iff",
+      "lean": "Chapter02.palomar_affine_source_minimizer_iff",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02AffinePropagationSource.lean",
+      "source_start_line": 64,
+      "signature_sha256": "279d84d105181590dffd53e09c59788263a2aea40fa87ba8105068ada15c49dc",
+      "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.compact_tightest_coordinate_enclosure",
+      "lean": "Chapter02.palomar_compact_tightest_coordinate_enclosure",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveBounds.lean",
+      "source_start_line": 81,
+      "signature_sha256": "5ee5ef7e6fa0b0aff3cdef78218d7902eebe9e6828ad86a1062bbc535416f913",
+      "note": "Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent cutoff; no original hull or assumed attained bound.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.cutoff_bounds_preserve_minimizers",
+      "lean": "Chapter02.palomar_cutoff_bounds_preserve_minimizers",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveBounds.lean",
+      "source_start_line": 121,
+      "signature_sha256": "528803b5d4fe7d4c81f583fce72f63e92a46af49da6ab6e890c6cf826c522cfd",
+      "note": "Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent cutoff; no original hull or assumed attained bound.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.BBPolyData.retained_feasible_eq_of_certificates",
+      "lean": "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 79,
+      "signature_sha256": "244871b57100bb3480b7ac8d46ae02a8e40242a911c080ea7620b458690ba45c",
+      "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.BBPolyData.retained_minimizer_iff_of_certificates",
+      "lean": "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 88,
+      "signature_sha256": "8e35633c155fe0abdff3abee820587410100d98778eeff1f657abf7e2004cf31",
+      "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.BBPolyData.feasible_coordinate_bounds",
+      "lean": "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 114,
+      "signature_sha256": "6bfb83db0b3807bf4f795541f1ef1db163fcd9856dad01eca506edcba8877535",
+      "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02.BBPolyData.feasible_cutoff_bounds_minimizer_iff",
+      "lean": "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02PresolveRedundancy.lean",
+      "source_start_line": 125,
+      "signature_sha256": "ae1ecf174013f96bdefe393063817d3f0afbc9bef29e3598265843ab6cb71c5d",
+      "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02FBBT.qualified_simultaneous_fbbt",
+      "lean": "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02FBBTTheorem.lean",
+      "source_start_line": 135,
+      "signature_sha256": "b2ed3aae5f0259d5a4a5da039cc60e172037bc8885442aeb212eba6c7c2f0c73",
+      "note": "Complete qualified finite simultaneous (X,B) theory: actual public/raw runs, fixed states, independent scalar LP, conditional limit and unique full-width optimum.",
+      "status": "exact source alias"
+    },
+    {
+      "source": "Chapter02FBBT.qualified_source_fbbt",
+      "lean": "Chapter02FBBT.palomar_qualified_source_fbbt",
+      "module": "Solution",
+      "source_file": "lean-modern/Chapter02FBBTSourceTheorem.lean",
+      "source_start_line": 67,
+      "signature_sha256": "51a281c22a8e24f7e3744ce2af0f5df67fa251c2c6c6e6292315610e15e1513b",
+      "note": "Complete bounded original-coordinate source theory; unconditional LP infeasibility and separately conditional nonempty-run limit/minimizer conclusions.",
+      "status": "exact source alias"
+    }
+  ],
+  "source_archive": {
+    "local_reference": ".usage/exports/project-s289/proof-sources-lean-4.35.tar.gz",
+    "sha256": "e737a06098a579abc4d1186ca6237d3b91f29bd57e8c52cb15a0a5906184ca81",
+    "url": "https://bernalde.github.io/thesis_ai_remake/downloads/proof-sources-lean-4.35.tar.gz"
+  },
+  "no_canonical_mutation": true,
+  "explicit_generated_matcher_correspondence": [
+    {
+      "declaration": "Chapter02.affineRowStep",
+      "source_syntax_slice_sha256": "90e7a469cbc21f3d80838f4abf5f1cf00925a7edd1f8dec0232b7da758dcc618",
+      "independent_explicit_kernel_body_sha256": "3a0299147edcc469c5647d37456ce2a670a3dbfc9e85336629c81b0c1cd952a3",
+      "generated_matchers": [
+        "Chapter02.affineRowStep.match_1"
+      ],
+      "printed_source_outer_evidence": ".usage/exports/project-s290/verification/ch02-presolve-diag01/002-diagnostic-audit.stdout.txt",
+      "printed_source_outer_evidence_sha256": "3626b2ec40a20320f1437620e93a6de3f147b2e5b502d46091b7f09bed4d8b29",
+      "printed_source_matcher_evidence": ".usage/exports/project-s290/verification/ch02-presolve-diag02/002-diagnostic-audit.stdout.txt",
+      "printed_source_matcher_evidence_sha256": "3b204b056e7afaa9375077354a4eaa352d882d3669d0c0ced23141712c81c3ab",
+      "meaning": "Full explicit source elaboration; all recursor bodies recursively compared. No computational hole/exemption, new axiom or theorem-type change."
+    },
+    {
+      "declaration": "Chapter02.affineSourceRow",
+      "source_syntax_slice_sha256": "bcaedc3a6244d9a586d568c6f4667b653b94bbcc5c5e402c1afe52e7f6f23e51",
+      "independent_explicit_kernel_body_sha256": "7433f99a167be8c820a9c9fc420df3d3635f6296c5b37d69781fffba84c11d78",
+      "generated_matchers": [
+        "Chapter02.affineSourceRow.match_1"
+      ],
+      "printed_source_outer_evidence": ".usage/exports/project-s290/verification/ch02-presolve-diag01/002-diagnostic-audit.stdout.txt",
+      "printed_source_outer_evidence_sha256": "3626b2ec40a20320f1437620e93a6de3f147b2e5b502d46091b7f09bed4d8b29",
+      "printed_source_matcher_evidence": ".usage/exports/project-s290/verification/ch02-presolve-diag02/002-diagnostic-audit.stdout.txt",
+      "printed_source_matcher_evidence_sha256": "3b204b056e7afaa9375077354a4eaa352d882d3669d0c0ced23141712c81c3ab",
+      "meaning": "Full explicit source elaboration; all recursor bodies recursively compared. No computational hole/exemption, new axiom or theorem-type change."
+    }
+  ],
+  "historical_preparation_status": "SOURCE_COPIES_AND_INDEPENDENT_STATEMENT_BODIES_MATCH_ACTUAL_LOCAL_PACKET_CHECKS; scientific packet review pending",
+  "current_package_status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+  "current_evidence": "VERIFICATION.json; historical source acceptance and current packet checks are distinct."
+}

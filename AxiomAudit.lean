@@ -1,0 +1,16 @@
+module
+
+public import Solution
+
+#print axioms Chapter02.palomar_affine_propagate_contracts
+#print axioms Chapter02.palomar_affine_source_preservation
+#print axioms Chapter02.palomar_affine_source_empty_certificate
+#print axioms Chapter02.palomar_affine_source_minimizer_iff
+#print axioms Chapter02.palomar_compact_tightest_coordinate_enclosure
+#print axioms Chapter02.palomar_cutoff_bounds_preserve_minimizers
+#print axioms Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates
+#print axioms Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates
+#print axioms Chapter02.BBPolyData.palomar_feasible_coordinate_bounds
+#print axioms Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff
+#print axioms Chapter02FBBT.palomar_qualified_simultaneous_fbbt
+#print axioms Chapter02FBBT.palomar_qualified_source_fbbt

@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+  "status": "S304_TWO_ROOT_FULL_PASS_AGENT_TECHNICAL_REVIEW_ACCEPTED_PRE_GIT_DOCUMENTARY_CLOSURE_PENDING",
   "excluded": [
     ".lake/",
     ".git/",
@@ -184,28 +184,28 @@
     },
     {
       "path": "PROVENANCE.md",
-      "sha256": "cb92fe7523ed10ca2b45adae32e0dc59b367bf8b12f56da946854c30d2df13f4",
-      "bytes": 1553
+      "sha256": "7a02523de4e815c5d2dee854c0443d8b071e8c9260559d5520844d384e76c5fe",
+      "bytes": 3951
     },
     {
       "path": "README.md",
-      "sha256": "a5faf4040ee06508cc5220c9a7e23bc7f001b11ec8f944555cfc97567a069f9f",
-      "bytes": 3427
+      "sha256": "d516cc15f0a8b7b5d37be5f271d89e004b7c473ec14d7bfc3ea9548cece17f65",
+      "bytes": 5352
     },
     {
       "path": "RELEASE-STATUS.md",
-      "sha256": "549035fd2ad55f744484748fecb03aa043ebd939e344b372ffdafd3c9c3a5920",
-      "bytes": 853
+      "sha256": "8e9a64e3dbd25501f070d6ec0f3701a71b00579443a7567d52aad0510d512f5d",
+      "bytes": 2701
     },
     {
       "path": "SOURCE-MANIFEST.json",
-      "sha256": "0f19bc041146643baa92f3f32de547aed33dd56cbe4b3fdd0e179fa4152edbfd",
-      "bytes": 36971
+      "sha256": "8d84eac71ec41a36d2a30adef0b4685d070cbf4f5def47167dd82090d6b39716",
+      "bytes": 41329
     },
     {
       "path": "SOURCE-MAPPING.md",
-      "sha256": "e4964f186356357aeed8124089d0b9952ff25e61e23820a7ddc0246cb599c241",
-      "bytes": 6775
+      "sha256": "eefa49ca7f069a8b137b3144d381f21fce60e062c99b04befc574b8e4138c072",
+      "bytes": 9013
     },
     {
       "path": "Solution.lean",
@@ -214,18 +214,18 @@
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "645f0e90289e5c2ce4b51d9b5c82acf7ed810475ce01c5b78c6685de369c848b",
-      "bytes": 31682
+      "sha256": "cafc6b6edcb812bb457b6790d89323ff015ddd5834d40c9362c92ad109f17a2f",
+      "bytes": 78758
     },
     {
       "path": "comparator.json",
-      "sha256": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
-      "bytes": 909
+      "sha256": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
+      "bytes": 289
     },
     {
       "path": "formalization.yaml",
-      "sha256": "5a3a867be1fa916d39f6acdede29d8f436f0c3b151ac34f583543d97f7865da6",
-      "bytes": 16908
+      "sha256": "81ce436feaa05df93af845817aabfc2c6665aea6f9e9af6848a895ebab7bdfd8",
+      "bytes": 20487
     },
     {
       "path": "lake-manifest.json",

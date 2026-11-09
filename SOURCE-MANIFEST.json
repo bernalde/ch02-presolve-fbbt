@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+  "status": "S304_TWO_ROOT_FULL_PASS_AGENT_TECHNICAL_REVIEW_ACCEPTED_PRE_GIT_DOCUMENTARY_CLOSURE_PENDING",
   "family": "C2-PRESOLVE",
   "source_modules": [
     {
@@ -720,7 +720,8 @@
       "source_start_line": 94,
       "signature_sha256": "359ee77afeb72c682e2bbf9f986a020b482accab01a54c6697f9adef3bbce0b6",
       "note": "Every literal finite schedule contracts its input Cartesian members.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.affine_source_preservation",
@@ -730,7 +731,8 @@
       "source_start_line": 43,
       "signature_sha256": "e245e66af7b3939f0f8a3f346f6850726a14d32de67bd05bc65ba3b791ebf00e",
       "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.affine_source_empty_certificate",
@@ -740,7 +742,8 @@
       "source_start_line": 57,
       "signature_sha256": "3e8072794f92f601f6bba71e142b6df51dea3f64cd143d9c4c10b3e670ac0509",
       "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.affine_source_minimizer_iff",
@@ -750,7 +753,8 @@
       "source_start_line": 64,
       "signature_sha256": "279d84d105181590dffd53e09c59788263a2aea40fa87ba8105068ada15c49dc",
       "note": "The bounded full original affine/nonlinear/integer model and unchanged objective are retained for arbitrary finite visits, including repeats or omissions.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.compact_tightest_coordinate_enclosure",
@@ -760,7 +764,8 @@
       "source_start_line": 81,
       "signature_sha256": "5ee5ef7e6fa0b0aff3cdef78218d7902eebe9e6828ad86a1062bbc535416f913",
       "note": "Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent cutoff; no original hull or assumed attained bound.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.cutoff_bounds_preserve_minimizers",
@@ -770,7 +775,8 @@
       "source_start_line": 121,
       "signature_sha256": "528803b5d4fe7d4c81f583fce72f63e92a46af49da6ab6e890c6cf826c522cfd",
       "note": "Actual relaxed coordinate certificates or compact attained extrema and a closed feasible-incumbent cutoff; no original hull or assumed attained bound.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.BBPolyData.retained_feasible_eq_of_certificates",
@@ -780,7 +786,8 @@
       "source_start_line": 79,
       "signature_sha256": "244871b57100bb3480b7ac8d46ae02a8e40242a911c080ea7620b458690ba45c",
       "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.BBPolyData.retained_minimizer_iff_of_certificates",
@@ -790,7 +797,8 @@
       "source_start_line": 88,
       "signature_sha256": "8e35633c155fe0abdff3abee820587410100d98778eeff1f657abf7e2004cf31",
       "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.BBPolyData.feasible_coordinate_bounds",
@@ -800,7 +808,8 @@
       "source_start_line": 114,
       "signature_sha256": "6bfb83db0b3807bf4f795541f1ef1db163fcd9856dad01eca506edcba8877535",
       "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02.BBPolyData.feasible_cutoff_bounds_minimizer_iff",
@@ -810,7 +819,8 @@
       "source_start_line": 125,
       "signature_sha256": "ae1ecf174013f96bdefe393063817d3f0afbc9bef29e3598265843ab6cb71c5d",
       "note": "All deletion certificates use the same final retained row set; original nonlinear/integer restrictions, arbitrary base and objective persist.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "unselected_library_interface"
     },
     {
       "source": "Chapter02FBBT.qualified_simultaneous_fbbt",
@@ -820,7 +830,8 @@
       "source_start_line": 135,
       "signature_sha256": "b2ed3aae5f0259d5a4a5da039cc60e172037bc8885442aeb212eba6c7c2f0c73",
       "note": "Complete qualified finite simultaneous (X,B) theory: actual public/raw runs, fixed states, independent scalar LP, conditional limit and unique full-width optimum.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "selected_fbbt_core"
     },
     {
       "source": "Chapter02FBBT.qualified_source_fbbt",
@@ -830,7 +841,8 @@
       "source_start_line": 67,
       "signature_sha256": "51a281c22a8e24f7e3744ce2af0f5df67fa251c2c6c6e6292315610e15e1513b",
       "note": "Complete bounded original-coordinate source theory; unconditional LP infeasibility and separately conditional nonempty-run limit/minimizer conclusions.",
-      "status": "exact source alias"
+      "status": "exact source alias",
+      "selection_role": "selected_fbbt_core"
     }
   ],
   "source_archive": {
@@ -868,6 +880,46 @@
     }
   ],
   "historical_preparation_status": "SOURCE_COPIES_AND_INDEPENDENT_STATEMENT_BODIES_MATCH_ACTUAL_LOCAL_PACKET_CHECKS; scientific packet review pending",
-  "current_package_status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
-  "current_evidence": "VERIFICATION.json; historical source acceptance and current packet checks are distinct."
+  "current_package_status": "S304_TWO_ROOT_FULL_PASS_AGENT_TECHNICAL_REVIEW_ACCEPTED_PRE_GIT_DOCUMENTARY_CLOSURE_PENDING",
+  "current_evidence": "At 2026-11-09T16:18:49.157215+00:00 (pre-Git issuance), the actual full local build, selected axiom and genuine Comparator checks with Lean, NanoDa and con-ron passed, and independent local agent technical packet review accepted the exact pre-review freeze. Final acceptance-stamp documentary/schema closure and clean archive/Git history closure remain pending external receipts. No LOCAL_READY, human peer review, Palomar/service review, editorial eligibility or publication acceptance is claimed. The twelve-root predecessor PASS/review/history remains separately preserved as historical evidence. At this issuance, no successor publication, hosted preflight, intake or registration has occurred or is authorized by this preparation. Exact full receipt, agent review digest and pre-review freeze are bound in VERIFICATION.json.",
+  "historical_baseline_package_status": {
+    "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+    "current_package_status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+    "current_evidence": "VERIFICATION.json; historical source acceptance and current packet checks are distinct."
+  },
+  "current_selection": {
+    "comparator_sha256": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
+    "selected_targets": [
+      "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
+      "Chapter02FBBT.palomar_qualified_source_fbbt"
+    ],
+    "retained_unselected_library_targets": [
+      "Chapter02.palomar_affine_propagate_contracts",
+      "Chapter02.palomar_affine_source_preservation",
+      "Chapter02.palomar_affine_source_empty_certificate",
+      "Chapter02.palomar_affine_source_minimizer_iff",
+      "Chapter02.palomar_compact_tightest_coordinate_enclosure",
+      "Chapter02.palomar_cutoff_bounds_preserve_minimizers",
+      "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates",
+      "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates",
+      "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds",
+      "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff"
+    ],
+    "counts": {
+      "selected_comparator_roots": 2,
+      "selected_main_interfaces": 2,
+      "coherent_selected_family": 1,
+      "retained_challenge_interfaces": 12,
+      "retained_challenge_intentional_holes": 12,
+      "selected_challenge_holes": 2,
+      "unselected_library_placeholders": 10,
+      "retained_completed_solution_aliases": 12,
+      "retained_axiom_print_targets": 12,
+      "separate_source_to_both_audit_targets": 0,
+      "selected_support_comparison_roots": 0
+    },
+    "credit": "The simultaneous theory is a qualified formal interpretation of adopted Belotti–Cafieri–Lee–Liberti COCOA 2010 theory, with disclosed index/sign/zero-product/clipping normalizations. The thesis preprocessing survey is not the source of that LP theorem; the 2012 sequential/X-only account remains distinct. The source bridge applies the same family, not a second independent contribution. No new theorem credit or standalone editorial eligibility is established.",
+    "verification": "At 2026-11-09T16:18:49.157215+00:00: actual two-root full PASS and independent local agent technical packet acceptance; final documentary/schema and clean archive/Git closure pending external receipts.",
+    "audit_scope": "The unchanged AxiomAudit prints all twelve retained aliases. The actual central solution_axioms map and genuine Comparator/kernel checks cover exactly the two configured roots and their transitive comparison closure. All twelve actual print reports were separately parsed and use only Classical.choice, Quot.sound and propext. No separate source-to-both audit is present or asserted."
+  }
 }

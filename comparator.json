@@ -2,16 +2,6 @@
   "challenge_module": "Challenge",
   "solution_module": "Solution",
   "theorem_names": [
-    "Chapter02.palomar_affine_propagate_contracts",
-    "Chapter02.palomar_affine_source_preservation",
-    "Chapter02.palomar_affine_source_empty_certificate",
-    "Chapter02.palomar_affine_source_minimizer_iff",
-    "Chapter02.palomar_compact_tightest_coordinate_enclosure",
-    "Chapter02.palomar_cutoff_bounds_preserve_minimizers",
-    "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates",
-    "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates",
-    "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds",
-    "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff",
     "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
     "Chapter02FBBT.palomar_qualified_source_fbbt"
   ],

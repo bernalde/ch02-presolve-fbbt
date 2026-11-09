@@ -1,6 +1,26 @@
 {
-  "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+  "source_modules_copied_exact": 29,
+  "lean_toolchain": "leanprover/lean4:v4.35.0",
+  "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+  "challenge_lines": 650,
+  "challenge_bytes": 31047,
+  "advisory_size_warning": true,
+  "limits": "Sequential visits and the simultaneous operator remain different procedures. Both variable and row intervals are clipped to the initial box; signs, zero products, empty families and canonical empty states persist. No graph point follows from a nonempty fixed interval box. No unbounded-source equivalence, nonlinear/integer propagation, rounding, finite stabilization, historical implementation, general presolve completeness, runtime or empirical claim is certified. The full-width LP result is not transferred to a variable-only objective.",
+  "telemetry": {
+    "native_helper_tokens": null,
+    "estimated_cost_usd": null,
+    "actual_billed_usd": null,
+    "helper_model_inclusion_overlap": "unknown; coordinator alone reconciles; no helper totals inferred"
+  },
+  "status": "S304_TWO_ROOT_FULL_PASS_AGENT_TECHNICAL_REVIEW_ACCEPTED_PRE_GIT_DOCUMENTARY_CLOSURE_PENDING",
+  "scope": "Two selected interfaces describe one qualified finite simultaneous FBBT family and its bounded original-coordinate application. For ordered finite initial bounds, the joint real variable/row (X,B) theory relates Cartesian nonemptiness of every public iterate, ordered fixed boxes and feasibility of an independent scalar LP; conditional on a nonempty run it gives endpoint convergence, the greatest ordered fixed box and a unique attained entire-assignment optimum for total X+B width. The source application retains affine/nonlinear/integer restrictions and the unchanged objective inside a finite X box, with unconditional LP-infeasibility-to-bounded-source-infeasibility and separately conditional limit/minimizer conclusions. Ten other affine, coordinate/cutoff and retained-row interfaces remain unselected library material.",
+  "source_attribution": "The simultaneous theory is a qualified formal interpretation of adopted Belotti–Cafieri–Lee–Liberti COCOA 2010 theory, with disclosed index/sign/zero-product/clipping normalizations. The thesis preprocessing survey is not the source of that LP theorem; the 2012 sequential/X-only account remains distinct. The source bridge applies the same family, not a second independent contribution. No new theorem credit or standalone editorial eligibility is established.",
   "theorem_targets": [
+    "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
+    "Chapter02FBBT.palomar_qualified_source_fbbt"
+  ],
+  "main_interface_count": 2,
+  "retained_unselected_library_targets": [
     "Chapter02.palomar_affine_propagate_contracts",
     "Chapter02.palomar_affine_source_preservation",
     "Chapter02.palomar_affine_source_empty_certificate",
@@ -10,67 +30,540 @@
     "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates",
     "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates",
     "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds",
-    "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff",
-    "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
-    "Chapter02FBBT.palomar_qualified_source_fbbt"
+    "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff"
   ],
-  "source_modules_copied_exact": 29,
-  "lean_toolchain": "leanprover/lean4:v4.35.0",
-  "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
-  "independent_review": {
-    "verdict": "ACCEPT_WITH_DOCUMENTARY_CLOSEOUT",
-    "record": "PROJECT-S290 review/ch02-second/PRESOLVE-REVIEW.md",
-    "report_sha256": "22548e10ad0d20dda029c40e4216227549a7c0a8a18dc85585fb98e85cc71cf1",
-    "findings_sha256": "9c60b677b410da9cf88856bc9fd487addbf58e79ae6623fde054f0dfad1e23c0",
-    "scope": "Twelve complete exact aliases: finite affine contraction/preservation/empty/minimizers; qualified attained relaxed coordinate bounds and closed feasible-incumbent cutoff; final-retained-row deletion; distinct qualified simultaneous joint (X,B) fixed-box/independent scalar-LP theory; bounded original-source bridge. Nonempty-run conditional limits; no graph point from fixed box, no finite stabilization or full presolve completeness.",
-    "mathematical_or_mechanical_mandatory_findings": [],
-    "documentary_delta_closure": "Recorded separately by coordinator after independent inspection of this exact documentary successor.",
-    "reviewer_reran_proof_checks": false,
-    "human_peer_review_claimed": false,
-    "requested_model": "Astra",
-    "requested_effort": "high",
-    "observed_runtime_model": null,
-    "observed_runtime_effort": null
+  "proof_support_comparison_targets": [],
+  "interface_counts": {
+    "selected_comparator_roots": 2,
+    "selected_main_interfaces": 2,
+    "coherent_selected_family": 1,
+    "retained_challenge_interfaces": 12,
+    "retained_challenge_intentional_holes": 12,
+    "selected_challenge_holes": 2,
+    "unselected_library_placeholders": 10,
+    "retained_completed_solution_aliases": 12,
+    "retained_axiom_print_targets": 12,
+    "separate_source_to_both_audit_targets": 0,
+    "selected_support_comparison_roots": 0
   },
-  "hosted_preflight": "not run",
+  "current_comparator_sha256": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
+  "independent_review": {
+    "status": "accepted technical packet; final documentary closure pending",
+    "scope": "Exact two-root selection/delta, inherited attribution and actual full receipt at the bound pre-review freeze; no new source-science audit.",
+    "record": {
+      "path": ".usage/exports/project-s304/review/FBBT-FINAL-RESULT.json",
+      "sha256": "ac44caa214cde9fd48ea2365ed635e8f373d8d24c8eee3a2bb84da85e17d06f7",
+      "verdict": "ACCEPT_EXACT_TECHNICAL_PRE_REVIEW_FREEZE_POST_REVIEW_METADATA_CLOSURE_REQUIRED",
+      "at_utc": "2026-11-09T16:17:25.662172+00:00",
+      "note_sha256": "18502e2036b87e63c11546a2a6cc8c1ee2837ae1a94c38bc593093055c6beb9a",
+      "pre_review_freeze_sha256": "00c1cbf3d6eae051d2504fa6e99c133e9e4e725a80f5b5c8a0818592fe7704d8"
+    },
+    "mandatory_technical_findings": [],
+    "human_peer_review_claimed": false,
+    "service_editorial_review_claimed": false
+  },
+  "hosted_preflight": "not run for successor",
   "service_submission": false,
   "registration": false,
-  "challenge_lines": 650,
-  "challenge_bytes": 31047,
-  "advisory_size_warning": true,
-  "resources": {
-    "memory_max_bytes": 12884901888,
-    "swap_max_bytes": 0,
-    "cpu_max": [
-      200000,
-      100000
-    ],
-    "memory_peak_bytes": 893456384
-  },
-  "scope": "The finite affine row-fold contracts and preserves the explicitly bounded full original model and its minimizers. Attained relaxed coordinate enclosures, closed incumbent-cutoff bounds and final-retained-row redundancy certificates are exposed. The distinct finite simultaneous real (X,B) procedure is exposed through its complete qualified theory and full source-model bridge: actual-run/fixed-state/scalar-LP equivalence, and conditional endpoint convergence, greatest fixed box and unique attained entire-assignment width optimum. LP infeasibility gives bounded-source infeasibility without assuming a nonempty run.",
-  "limits": "Sequential visits and the simultaneous operator remain different procedures. Both variable and row intervals are clipped to the initial box; signs, zero products, empty families and canonical empty states persist. No graph point follows from a nonempty fixed interval box. No unbounded-source equivalence, nonlinear/integer propagation, rounding, finite stabilization, historical implementation, general presolve completeness, runtime or empirical claim is certified. The full-width LP result is not transferred to a variable-only objective.",
-  "telemetry": {
-    "native_helper_tokens": null,
-    "estimated_cost_usd": null,
-    "actual_billed_usd": null,
-    "helper_model_inclusion_overlap": "unknown; coordinator alone reconciles; no helper totals inferred"
-  },
-  "matcher_correspondence": "Explicit complete source-generated recursors and outer bodies; independent original source copies/theorem types unchanged. Actual full verification passed in ch02-presolve-fix04, including genuine recursive definition comparison and all three kernels.",
+  "new_public_commit": false,
+  "submitted": false,
+  "registered": false,
   "lean_build_run": true,
   "axiom_check_run": true,
   "comparator_run": true,
   "independent_kernels": [
-    "Lean default",
+    "Lean default kernel",
     "NanoDa",
     "con-ron"
   ],
+  "actual_result": {
+    "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/result.json",
+    "sha256": "e47ed78a55546d6c936b36104c6eeaa8fa284072274cf84ea16c199bf1717101",
+    "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+    "completed_utc": "2026-11-09T16:06:33.485786+00:00"
+  },
+  "solution_axioms": {
+    "Chapter02FBBT.palomar_qualified_simultaneous_fbbt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "Chapter02FBBT.palomar_qualified_source_fbbt": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "actual_attempt_history": [
+    {
+      "attempt": "ch02-fbbt-core-s304-full01",
+      "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/result.json",
+      "sha256": "e47ed78a55546d6c936b36104c6eeaa8fa284072274cf84ea16c199bf1717101",
+      "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+      "completed_utc": "2026-11-09T16:06:33.485786+00:00",
+      "zero_exit_steps": 35,
+      "log_count": 70,
+      "scope": "One root-owned full successor run; historical failed/diagnostic attempts remain unchanged under historical_baseline."
+    }
+  ],
+  "mechanical_verification": {
+    "actual_result": {
+      "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/result.json",
+      "sha256": "e47ed78a55546d6c936b36104c6eeaa8fa284072274cf84ea16c199bf1717101",
+      "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+      "completed_utc": "2026-11-09T16:06:33.485786+00:00"
+    },
+    "zero_exit_steps": 35,
+    "verified_logs": 70,
+    "logs": [
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/001-lean-version.stdout.txt",
+        "sha256": "eb22144228dd41cd51a0c84af4f976cd0cef473102dcf99b60be756b11f2b95a",
+        "bytes": 106
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/001-lean-version.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/002-build-Chapter02.stdout.txt",
+        "sha256": "d98dd198d7ae68daa70adfb7a6f06d33b3a72bae2c49368d5b4f0bc60b57d773",
+        "bytes": 3578
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/002-build-Chapter02.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/003-build-Chapter02Model.stdout.txt",
+        "sha256": "6e8ad258fdf53d5113ae06383a5e32fdfe9290e58c13e21cf96d83f477a55233",
+        "bytes": 6883
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/003-build-Chapter02Model.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/004-build-Chapter02AffineBox.stdout.txt",
+        "sha256": "cc0f5f598ffe9e79b29a6a7441c913be2b57d57f0ea6cf51cc8d80d47bbb8d67",
+        "bytes": 8209
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/004-build-Chapter02AffineBox.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/005-build-Chapter02AffinePropagation.stdout.txt",
+        "sha256": "9be70c0a5e3b898aba18c628fff28a1e66938dd2d6c7b244ea91db12f744af56",
+        "bytes": 10241
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/005-build-Chapter02AffinePropagation.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/006-build-Chapter02BBAffine.stdout.txt",
+        "sha256": "4398969d063c0e87d7a2ef2148a9515d757ceaa0a8605753e34fc910f6bd50f4",
+        "bytes": 10626
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/006-build-Chapter02BBAffine.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/007-build-Chapter02BBBounds.stdout.txt",
+        "sha256": "7de91b58b21b69403ede1473e058dd59340b649629db25f94a21eb30b85c4a7c",
+        "bytes": 9580
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/007-build-Chapter02BBBounds.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/008-build-Chapter02BBAdapter.stdout.txt",
+        "sha256": "66756d2674074a3b71df6d967f6b3b7898708546f4f9ad153a660a2bfe0f1240",
+        "bytes": 22044
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/008-build-Chapter02BBAdapter.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/009-build-Chapter02AffinePropagationSource.stdout.txt",
+        "sha256": "6414a46eaf51b39d1adb267f239cfa82d66c827c344822788797f646b7c4a7bc",
+        "bytes": 26055
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/009-build-Chapter02AffinePropagationSource.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/010-build-Chapter02AffinePropagationExamples.stdout.txt",
+        "sha256": "2fabad8968876a5276a006a924b703fd8510806b32f1ada29135e7ab72b19a0d",
+        "bytes": 27528
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/010-build-Chapter02AffinePropagationExamples.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/011-build-Chapter02FBBTBounds.stdout.txt",
+        "sha256": "4c11453437f116fa24e6d431a93421a05ad6a3c6781bb4a78141620b6d074c50",
+        "bytes": 10286
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/011-build-Chapter02FBBTBounds.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/012-build-Chapter02FBBTOperator.stdout.txt",
+        "sha256": "6c16e355d2406cbe079c5e5defb55e20064552669bdf1fea4c7ab4cb302b2f16",
+        "bytes": 10288
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/012-build-Chapter02FBBTOperator.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/013-build-Chapter02FBBTOrder.stdout.txt",
+        "sha256": "77c7717c4bde58e9e894e55d164a27ba0a62d51538d8f5035bb0f2f605fff7a5",
+        "bytes": 11421
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/013-build-Chapter02FBBTOrder.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/014-build-Chapter02FBBTPreservation.stdout.txt",
+        "sha256": "bafe133546d764004853ada7dd1ab866c40eebcaa4531a3054bb7b9463cfd5e4",
+        "bytes": 12340
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/014-build-Chapter02FBBTPreservation.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/015-build-Chapter02FBBTLP.stdout.txt",
+        "sha256": "8acec55216128e6096042a0686b0d80e4414c475b8b1fc482dfe30a496f233bb",
+        "bytes": 13869
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/015-build-Chapter02FBBTLP.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/016-build-Chapter02FBBTLimit.stdout.txt",
+        "sha256": "12b21ff7cee635e9a1c1965acf3d983c9e47395f4d71131096a724142d26094d",
+        "bytes": 10285
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/016-build-Chapter02FBBTLimit.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/017-build-Chapter02FBBTContinuity.stdout.txt",
+        "sha256": "75fceb5cf179656f2f5aeac1847ccb1fd16e1185e344c15c8dbd06fe9d94e394",
+        "bytes": 11054
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/017-build-Chapter02FBBTContinuity.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/018-build-Chapter02FBBTTheorem.stdout.txt",
+        "sha256": "dcedc591467d6caf34272d76f5c5d2e1984f89ad3c18baf08d42d570083451a3",
+        "bytes": 14870
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/018-build-Chapter02FBBTTheorem.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/019-build-Chapter02FBBTBoundaryControls.stdout.txt",
+        "sha256": "d6ace0832ece6c854cd4f4bbab1809e17ceb0e6b3806911c3b363cad3ee6d6fd",
+        "bytes": 32857
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/019-build-Chapter02FBBTBoundaryControls.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/020-build-Chapter02FBBTContractionControl.stdout.txt",
+        "sha256": "fea5ff7b3df0357118399b0c8af1e3a99cf9f7332e31ef49d5244501710d9cfa",
+        "bytes": 13291
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/020-build-Chapter02FBBTContractionControl.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/021-build-Chapter02FBBTContractionApplication.stdout.txt",
+        "sha256": "a45fc3f132d86b6f72e9c57b125588625a05a5e2292d41d4cbace9a65c3c6611",
+        "bytes": 15882
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/021-build-Chapter02FBBTContractionApplication.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/022-build-Chapter02FBBTSourceData.stdout.txt",
+        "sha256": "55187ec0ef9a2a5e77b841d11b57c5933817fa6d5a93824408132e82e3f77654",
+        "bytes": 25451
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/022-build-Chapter02FBBTSourceData.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/023-build-Chapter02FBBTControlData.stdout.txt",
+        "sha256": "b13acac6dcf46855aae88ce866b7df155d4c8444f1c031b17d9a3de1910de1e8",
+        "bytes": 25452
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/023-build-Chapter02FBBTControlData.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/024-build-Chapter02FBBTSourceTheorem.stdout.txt",
+        "sha256": "7f27aeb5e08f072ddb9e79abe1637aa54779986c57faed0c0ad162b60a5b6629",
+        "bytes": 30224
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/024-build-Chapter02FBBTSourceTheorem.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/025-build-Chapter02FBBTSourceControl.stdout.txt",
+        "sha256": "439240f66aff27c8f994820f88633fb2db9748ac1f46f472c58e7c3721e4f9e6",
+        "bytes": 30276
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/025-build-Chapter02FBBTSourceControl.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/026-build-Chapter02FBBTControls.stdout.txt",
+        "sha256": "33320db992d8219dccecaa990045c9fd5ba34bc01db9474704fd0892767ba396",
+        "bytes": 34194
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/026-build-Chapter02FBBTControls.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/027-build-Chapter02FBBTNegativeRhsControl.stdout.txt",
+        "sha256": "77d10cd82052f4fb4845c151502178dfd8d2a8a72f9179b4fc2e456ae4598147",
+        "bytes": 33107
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/027-build-Chapter02FBBTNegativeRhsControl.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/028-build-Chapter02PresolveBounds.stdout.txt",
+        "sha256": "8167cfab374171b540281ffc38bb96413602fb785af9619820f886d21627e59f",
+        "bytes": 5209
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/028-build-Chapter02PresolveBounds.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/029-build-Chapter02PresolveRedundancy.stdout.txt",
+        "sha256": "7c712e8d4ca2a7af737c700663bd109007eb46d9d66dd708e4b86fe563641f7a",
+        "bytes": 25296
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/029-build-Chapter02PresolveRedundancy.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/030-build-Chapter02PresolveBoundsExamples.stdout.txt",
+        "sha256": "a9c76848ed6ba722db18be0d5dddf18f6ca6d9256aae5181c7733879bcbad408",
+        "bytes": 28558
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/030-build-Chapter02PresolveBoundsExamples.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/031-build-Challenge.stdout.txt",
+        "sha256": "21071318e19ac37ba225cd5f95d30df3a758c167bae5e188c9b4128005d01987",
+        "bytes": 3115
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/031-build-Challenge.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/032-build-Solution.stdout.txt",
+        "sha256": "5a7388f4693e18877b1acb2e4f53c2dfa4741d2962a85c4ec8e84c7e0657b1f9",
+        "bytes": 40742
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/032-build-Solution.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/033-default-build.stdout.txt",
+        "sha256": "69ba95b4dcb502cd3239da3636d68d7907d5c3285d75b7d8b0e3948e2814d5d2",
+        "bytes": 43773
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/033-default-build.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/034-axioms.stdout.txt",
+        "sha256": "a9adabc53186aa703494b65b92087f138d7cd6ca52ae1d4dd428324b5c5bda82",
+        "bytes": 1382
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/034-axioms.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/035-comparator.stdout.txt",
+        "sha256": "1b4f7708c79eec98bcef605e5eb5393d007816e34ce11da39a6089cbb2b70f3a",
+        "bytes": 45086
+      },
+      {
+        "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/035-comparator.stderr.txt",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "bytes": 0
+      }
+    ],
+    "genuine_kernel_acceptance_markers": [
+      "con-ron kernel accepts the solution",
+      "nanoda kernel accepts the solution",
+      "Lean default kernel accepts the solution",
+      "Your solution is okay!"
+    ],
+    "source_build": "Candidate project sources built explicitly; unchanged exact local outputs and pinned upstream caches may be reused, with upstream cache mounted read-only",
+    "cold_upstream_dependencies": false,
+    "control_exit_sha256": "8441c34d2e64b13a114efb661b59ebe85e30e963dcbcd0f156a28875883c4a20",
+    "warning_prefixed_line_occurrences": 675,
+    "distinct_warning_prefixed_lines": 65,
+    "warning_note": "Raw warning-prefixed occurrences include replayed retained-source/intentional Challenge warnings; not a new diagnostic count or proof failure.",
+    "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+    "inputs": {
+      "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
+      "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
+      "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
+      "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
+      "RELEASE-STATUS.md": "edb7919fa4a5d0b8b2249abd21e8c554ce4650bc5979f1a477b8f3dd436fec32",
+      ".gitignore": "94a3666e7596db603645ec7eaa358b92ede245882a9f3a600eaa57f1ea69b1b0",
+      "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
+      "comparator.json": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
+      "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
+      "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
+      "PROVENANCE.md": "dc3c11400be8af9e60da41c3db2e1472eaac9bdc58fe1d65e7bd9f4cce5b9bec",
+      "SOURCE-MAPPING.md": "d98dec1fd8a3b784bba43c448196e251af349cae4641f39e40e73713e2e50962",
+      "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
+      "README.md": "927f273e5545e73bac4e50b95e0b236a6b9c1e52a5576e43962a3d7badd37193",
+      "Chapter02FBBTOrder.lean": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba",
+      "Chapter02FBBTOperator.lean": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591",
+      "formalization.yaml": "564f63f40c923529584c402be855e9fc6052b87ab49802418f5e082c12fe6cd3",
+      "EXPORT-MANIFEST.json": "9caa3727c7db84651f87d55f2aaac65c0b729d7135f4d59e199dcb756dbecc25",
+      "Chapter02FBBTBoundaryControls.lean": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc",
+      "Chapter02.lean": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af",
+      "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+      "Chapter02FBBTPreservation.lean": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee",
+      "Chapter02FBBTSourceTheorem.lean": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640",
+      "Chapter02FBBTContractionApplication.lean": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854",
+      "Chapter02Model.lean": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535",
+      "Chapter02FBBTContractionControl.lean": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896",
+      "VERIFICATION.json": "dc8bf1b70c5048b74e1f4d669fda41448b343ab48f1561f48b503379041c113c",
+      "Chapter02FBBTLimit.lean": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f",
+      "Chapter02PresolveBoundsExamples.lean": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585",
+      "Chapter02FBBTBounds.lean": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883",
+      "Chapter02AffinePropagationSource.lean": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2",
+      "Challenge.lean": "9d638704c3f8e3a588d99be2a0f7f188c9d26132ae7d410bc2942ba100247e0b",
+      "Chapter02AffineBox.lean": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297",
+      "Chapter02PresolveRedundancy.lean": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253",
+      "Chapter02FBBTNegativeRhsControl.lean": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b",
+      "Chapter02FBBTTheorem.lean": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48",
+      "AxiomAudit.lean": "eec2367529623fc7aced5343c877e49c1fadc41904da77908d4f057e4c0f7861",
+      "Chapter02BBBounds.lean": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858",
+      "SOURCE-MANIFEST.json": "bae6bd0a066172f1170d951a9a6c43f2a188cfc713b06ca2cd2ac03548cfb7bd",
+      "Chapter02FBBTSourceControl.lean": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe",
+      "Chapter02FBBTContinuity.lean": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf",
+      "NOTICE.md": "2a20130eda75cfd8977f8bd7778865247ce9d3e4799f3a10b722e585a57746a4",
+      "Chapter02FBBTControlData.lean": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6",
+      "lakefile.toml": "41afbc89290722c06178e1ca78e144f83e6694f3f22e5e066f893628d0eb647c",
+      "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
+      "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5",
+      "scripts/NOTICE-PalomarTemplate.md": "bbc0390a4aae18471282961c2c74a459501be55e649a5394cf0860b52e110d9c",
+      "scripts/LICENSE-PalomarTemplate": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "scripts/check-lean-sources.py": "6919911f9905fcc9f01cac96e8c98a348a192a5550a10d127b0b3ced2d74bc5a",
+      "scripts/verify.py": "0dd8fa9c84678a5562442001a390e66ee16e116ef161112c506471bc0828b65e",
+      ".github/workflows/palomar-preflight.yml": "47b4a4fcd27b4a8068f08f23e0c15bc3eb38e20da1f6cb3b06abd96c3db57099"
+    },
+    "metadata_after_execution": "Only eight current documentary/export files changed after this receipt; the 36 proof/compiler/config inputs remain exact. The receipt binds the preverification payload, not these subsequent documentary bytes.",
+    "scope": "The unchanged AxiomAudit prints all twelve retained aliases. The actual central solution_axioms map and genuine Comparator/kernel checks cover exactly the two configured roots and their transitive comparison closure. All twelve actual print reports were separately parsed and use only Classical.choice, Quot.sound and propext. No separate source-to-both audit is present or asserted."
+  },
+  "resources": {
+    "planned_limits": {
+      "memory_max_bytes": 12884901888,
+      "swap_max_bytes": 0,
+      "cpu_max": [
+        200000,
+        100000
+      ]
+    },
+    "actual_current_measurements": {
+      "memory_max": 12884901888,
+      "swap_max": 0,
+      "cpu_max": [
+        200000,
+        100000
+      ],
+      "memory_peak_bytes": 1031806976,
+      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n"
+    }
+  },
   "proof_and_compiler_inputs": {
     "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
     "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
     "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
     "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
     "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
-    "comparator.json": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
+    "comparator.json": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
     "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
     "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
     "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
@@ -102,402 +595,697 @@
     "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
     "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
   },
-  "solution_axioms": {
-    "Chapter02.palomar_affine_propagate_contracts": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.palomar_affine_source_preservation": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.palomar_affine_source_empty_certificate": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.palomar_affine_source_minimizer_iff": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.palomar_compact_tightest_coordinate_enclosure": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.palomar_cutoff_bounds_preserve_minimizers": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02FBBT.palomar_qualified_simultaneous_fbbt": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ],
-    "Chapter02FBBT.palomar_qualified_source_fbbt": [
-      "Classical.choice",
-      "Quot.sound",
-      "propext"
-    ]
+  "unchanged_proof_compiler_inputs": {
+    "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
+    "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
+    "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
+    "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
+    "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
+    "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
+    "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
+    "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
+    "Chapter02FBBTOrder.lean": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba",
+    "Chapter02FBBTOperator.lean": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591",
+    "Chapter02FBBTBoundaryControls.lean": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc",
+    "Chapter02.lean": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af",
+    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+    "Chapter02FBBTPreservation.lean": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee",
+    "Chapter02FBBTSourceTheorem.lean": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640",
+    "Chapter02FBBTContractionApplication.lean": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854",
+    "Chapter02Model.lean": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535",
+    "Chapter02FBBTContractionControl.lean": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896",
+    "Chapter02FBBTLimit.lean": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f",
+    "Chapter02PresolveBoundsExamples.lean": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585",
+    "Chapter02FBBTBounds.lean": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883",
+    "Chapter02AffinePropagationSource.lean": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2",
+    "Challenge.lean": "9d638704c3f8e3a588d99be2a0f7f188c9d26132ae7d410bc2942ba100247e0b",
+    "Chapter02AffineBox.lean": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297",
+    "Chapter02PresolveRedundancy.lean": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253",
+    "Chapter02FBBTNegativeRhsControl.lean": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b",
+    "Chapter02FBBTTheorem.lean": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48",
+    "AxiomAudit.lean": "eec2367529623fc7aced5343c877e49c1fadc41904da77908d4f057e4c0f7861",
+    "Chapter02BBBounds.lean": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858",
+    "Chapter02FBBTSourceControl.lean": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe",
+    "Chapter02FBBTContinuity.lean": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf",
+    "Chapter02FBBTControlData.lean": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6",
+    "lakefile.toml": "41afbc89290722c06178e1ca78e144f83e6694f3f22e5e066f893628d0eb647c",
+    "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
+    "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
   },
-  "actual_result": {
-    "path": ".usage/exports/project-s290/verification/ch02-presolve-fix04/result.json",
-    "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
-    "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
-    "completed_utc": "2026-11-06T20:52:28.503319+00:00"
+  "additional_unchanged_diagnostic_inputs": {},
+  "changed_comparison_config": {
+    "before_sha256": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
+    "after_sha256": "033501e875381ef06aeb76ee32a8d6378f53d587ccb5dd03860f579744332a2c",
+    "change": "Remove only first ten root selections; modules and permitted axioms unchanged."
   },
-  "reused_inputs": "Read-only shared exact pinned upstream source/import cache; all declared project modules and default targets actually built. No shared-cache write.",
-  "comparison_boundary": "All complete theorem types and every transitively referenced computational body recursively compared. Explicit source-generated recursors, when present, are fully independently completed and compared; no computational definition exemption or checker disabling.",
-  "actual_attempt_history": [
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-01/result.json",
-      "sha256": "6c0d4be046de469aed35c890c89dff511c42ca6db55086b19b4508f7eda0bea2",
-      "state": "FAILED",
-      "last_step": "comparator"
-    },
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-02/result.json",
-      "sha256": "187460b8e5712460d3d5074d200aba037ea088e35650bdb2ab52394567aab924",
-      "state": "FAILED",
-      "last_step": "comparator"
-    },
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-diag01/result.json",
-      "sha256": "31dd1fd24f48e7567bd0954b770f3037baf527587eaa91a8d025c2269691bb18",
-      "state": "PASS_BOUNDED_DIAGNOSTIC_ONLY_NOT_PACKAGE_VERIFICATION",
-      "last_step": "diagnostic-audit"
-    },
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-diag02/result.json",
-      "sha256": "9b842f42b942a4bd3a6f0f0fec77fb8a727117651d61233a2f67ab54d7169d5d",
-      "state": "PASS_BOUNDED_DIAGNOSTIC_ONLY_NOT_PACKAGE_VERIFICATION",
-      "last_step": "diagnostic-audit"
-    },
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-fix03/result.json",
-      "sha256": "2cf45ce285f864a496028e5916e4653da105adc42e237b31b44c3024f7a50ee4",
-      "state": "FAILED",
-      "last_step": "build-Challenge"
-    },
-    {
-      "path": ".usage/exports/project-s290/verification/ch02-presolve-fix04/result.json",
-      "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
-      "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
-      "last_step": "comparator"
-    }
-  ],
-  "mechanical_verification": {
-    "record": "PROJECT-S290 verification/ch02-presolve-fix04/result.json",
-    "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
-    "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
-    "actual_lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
-    "source_build": "Candidate project sources built explicitly; unchanged exact local outputs and pinned upstream caches may be reused, with upstream cache mounted read-only",
-    "cold_rebuild_claimed": false,
-    "serial_module_order": [
-      "Chapter02",
-      "Chapter02Model",
-      "Chapter02AffineBox",
-      "Chapter02AffinePropagation",
-      "Chapter02BBAffine",
-      "Chapter02BBBounds",
-      "Chapter02BBAdapter",
-      "Chapter02AffinePropagationSource",
-      "Chapter02AffinePropagationExamples",
-      "Chapter02FBBTBounds",
-      "Chapter02FBBTOperator",
-      "Chapter02FBBTOrder",
-      "Chapter02FBBTPreservation",
-      "Chapter02FBBTLP",
-      "Chapter02FBBTLimit",
-      "Chapter02FBBTContinuity",
-      "Chapter02FBBTTheorem",
-      "Chapter02FBBTBoundaryControls",
-      "Chapter02FBBTContractionControl",
-      "Chapter02FBBTContractionApplication",
-      "Chapter02FBBTSourceData",
-      "Chapter02FBBTControlData",
-      "Chapter02FBBTSourceTheorem",
-      "Chapter02FBBTSourceControl",
-      "Chapter02FBBTControls",
-      "Chapter02FBBTNegativeRhsControl",
-      "Chapter02PresolveBounds",
-      "Chapter02PresolveRedundancy",
-      "Chapter02PresolveBoundsExamples",
-      "Challenge",
-      "Solution"
-    ],
-    "steps": [
-      {
-        "label": "lean-version",
-        "exit_code": 0,
-        "elapsed_seconds": 0.04764713894110173,
-        "stdout_sha256": "eb22144228dd41cd51a0c84af4f976cd0cef473102dcf99b60be756b11f2b95a",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  "audit_scope": "The unchanged AxiomAudit prints all twelve retained aliases. The actual central solution_axioms map and genuine Comparator/kernel checks cover exactly the two configured roots and their transitive comparison closure. All twelve actual print reports were separately parsed and use only Classical.choice, Quot.sound and propext. No separate source-to-both audit is present or asserted.",
+  "matcher_correspondence": "All original source syntax, complete explicit source-generated recursors and outer bodies remain byte-identical; their provenance remains in SOURCE-MANIFEST.json. Current recursive comparison is scoped to selected roots/transitive dependencies, with no checker exception.",
+  "comparison_boundary": "Complete types of the two selected roots and their transitively referenced computational bodies remain subject to genuine recursive comparison. All twelve source/Challenge/Solution interfaces and matcher definitions are retained byte-identically; no definition exemption or source weakening.",
+  "budget": "One root-owned full bounded successor run completed; no helper launch, retry, cycle reset or source mathematics/pin/checker change. Shared execution was serialized by the coordinator.",
+  "documentary_closure": "Acceptance stamp issued 2026-11-09T16:18:49.157215+00:00. Final acceptance-stamp documentary/schema closure and clean archive/Git history closure remain pending external receipts. No LOCAL_READY, human peer review, Palomar/service review, editorial eligibility or publication acceptance is claimed.",
+  "historical_baseline": {
+    "scope": "Complete exact twelve-root VERIFICATION.json value retained at original issuance, including failed and diagnostic attempts, qualified review, resources and source dates. It is not a two-root successor receipt.",
+    "public_source_commit": "a5d0e646266a7b0b68a7447672d45902c3f28006",
+    "source_tree": "d2f5d4ff2d18ea3b6f7195a90e9e22ac89890e3b",
+    "archive_sha256": "874abf5a3650830f682173a16d497c51d11619a22b9671dd4530508e855762b8",
+    "freeze_sha256": "75bc091d4ba185d5fada2a4d1e7d5cf74abedcac81db31b3129867d7901e0116",
+    "verification_sha256": "645f0e90289e5c2ce4b51d9b5c82acf7ed810475ce01c5b78c6685de369c848b",
+    "verification_record": {
+      "status": "LOCAL_CHECKED_AGENT_REVIEWED_DOCUMENTARY_SUCCESSOR",
+      "theorem_targets": [
+        "Chapter02.palomar_affine_propagate_contracts",
+        "Chapter02.palomar_affine_source_preservation",
+        "Chapter02.palomar_affine_source_empty_certificate",
+        "Chapter02.palomar_affine_source_minimizer_iff",
+        "Chapter02.palomar_compact_tightest_coordinate_enclosure",
+        "Chapter02.palomar_cutoff_bounds_preserve_minimizers",
+        "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates",
+        "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates",
+        "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds",
+        "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff",
+        "Chapter02FBBT.palomar_qualified_simultaneous_fbbt",
+        "Chapter02FBBT.palomar_qualified_source_fbbt"
+      ],
+      "source_modules_copied_exact": 29,
+      "lean_toolchain": "leanprover/lean4:v4.35.0",
+      "mathlib_revision": "56a005855ea17e0b0958f73ec801ae140b0a1679",
+      "independent_review": {
+        "verdict": "ACCEPT_WITH_DOCUMENTARY_CLOSEOUT",
+        "record": "PROJECT-S290 review/ch02-second/PRESOLVE-REVIEW.md",
+        "report_sha256": "22548e10ad0d20dda029c40e4216227549a7c0a8a18dc85585fb98e85cc71cf1",
+        "findings_sha256": "9c60b677b410da9cf88856bc9fd487addbf58e79ae6623fde054f0dfad1e23c0",
+        "scope": "Twelve complete exact aliases: finite affine contraction/preservation/empty/minimizers; qualified attained relaxed coordinate bounds and closed feasible-incumbent cutoff; final-retained-row deletion; distinct qualified simultaneous joint (X,B) fixed-box/independent scalar-LP theory; bounded original-source bridge. Nonempty-run conditional limits; no graph point from fixed box, no finite stabilization or full presolve completeness.",
+        "mathematical_or_mechanical_mandatory_findings": [],
+        "documentary_delta_closure": "Recorded separately by coordinator after independent inspection of this exact documentary successor.",
+        "reviewer_reran_proof_checks": false,
+        "human_peer_review_claimed": false,
+        "requested_model": "Astra",
+        "requested_effort": "high",
+        "observed_runtime_model": null,
+        "observed_runtime_effort": null
       },
-      {
-        "label": "build-Chapter02",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3134388539474458,
-        "stdout_sha256": "0f1ae9b6750da7b2737b6cda7c013ede6e99dd8a07a1f560b7157ff275de80f1",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "hosted_preflight": "not run",
+      "service_submission": false,
+      "registration": false,
+      "challenge_lines": 650,
+      "challenge_bytes": 31047,
+      "advisory_size_warning": true,
+      "resources": {
+        "memory_max_bytes": 12884901888,
+        "swap_max_bytes": 0,
+        "cpu_max": [
+          200000,
+          100000
+        ],
+        "memory_peak_bytes": 893456384
       },
-      {
-        "label": "build-Chapter02Model",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3577961099799722,
-        "stdout_sha256": "1d8ec2f25ce635ac0b7a522af3f8ae8e40ac2d219ff035e713492f9c1ad0da93",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "scope": "The finite affine row-fold contracts and preserves the explicitly bounded full original model and its minimizers. Attained relaxed coordinate enclosures, closed incumbent-cutoff bounds and final-retained-row redundancy certificates are exposed. The distinct finite simultaneous real (X,B) procedure is exposed through its complete qualified theory and full source-model bridge: actual-run/fixed-state/scalar-LP equivalence, and conditional endpoint convergence, greatest fixed box and unique attained entire-assignment width optimum. LP infeasibility gives bounded-source infeasibility without assuming a nonempty run.",
+      "limits": "Sequential visits and the simultaneous operator remain different procedures. Both variable and row intervals are clipped to the initial box; signs, zero products, empty families and canonical empty states persist. No graph point follows from a nonempty fixed interval box. No unbounded-source equivalence, nonlinear/integer propagation, rounding, finite stabilization, historical implementation, general presolve completeness, runtime or empirical claim is certified. The full-width LP result is not transferred to a variable-only objective.",
+      "telemetry": {
+        "native_helper_tokens": null,
+        "estimated_cost_usd": null,
+        "actual_billed_usd": null,
+        "helper_model_inclusion_overlap": "unknown; coordinator alone reconciles; no helper totals inferred"
       },
-      {
-        "label": "build-Chapter02AffineBox",
-        "exit_code": 0,
-        "elapsed_seconds": 1.294642469030805,
-        "stdout_sha256": "2bf578e7756654962666759818a0f2b5b1ce86479c100c9829f9ae41391c6079",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "matcher_correspondence": "Explicit complete source-generated recursors and outer bodies; independent original source copies/theorem types unchanged. Actual full verification passed in ch02-presolve-fix04, including genuine recursive definition comparison and all three kernels.",
+      "lean_build_run": true,
+      "axiom_check_run": true,
+      "comparator_run": true,
+      "independent_kernels": [
+        "Lean default",
+        "NanoDa",
+        "con-ron"
+      ],
+      "proof_and_compiler_inputs": {
+        "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
+        "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
+        "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
+        "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
+        "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
+        "comparator.json": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
+        "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
+        "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
+        "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
+        "Chapter02FBBTOrder.lean": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba",
+        "Chapter02FBBTOperator.lean": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591",
+        "Chapter02FBBTBoundaryControls.lean": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc",
+        "Chapter02.lean": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af",
+        "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+        "Chapter02FBBTPreservation.lean": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee",
+        "Chapter02FBBTSourceTheorem.lean": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640",
+        "Chapter02FBBTContractionApplication.lean": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854",
+        "Chapter02Model.lean": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535",
+        "Chapter02FBBTContractionControl.lean": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896",
+        "Chapter02FBBTLimit.lean": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f",
+        "Chapter02PresolveBoundsExamples.lean": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585",
+        "Chapter02FBBTBounds.lean": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883",
+        "Chapter02AffinePropagationSource.lean": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2",
+        "Challenge.lean": "9d638704c3f8e3a588d99be2a0f7f188c9d26132ae7d410bc2942ba100247e0b",
+        "Chapter02AffineBox.lean": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297",
+        "Chapter02PresolveRedundancy.lean": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253",
+        "Chapter02FBBTNegativeRhsControl.lean": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b",
+        "Chapter02FBBTTheorem.lean": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48",
+        "AxiomAudit.lean": "eec2367529623fc7aced5343c877e49c1fadc41904da77908d4f057e4c0f7861",
+        "Chapter02BBBounds.lean": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858",
+        "Chapter02FBBTSourceControl.lean": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe",
+        "Chapter02FBBTContinuity.lean": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf",
+        "Chapter02FBBTControlData.lean": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6",
+        "lakefile.toml": "41afbc89290722c06178e1ca78e144f83e6694f3f22e5e066f893628d0eb647c",
+        "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
+        "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
       },
-      {
-        "label": "build-Chapter02AffinePropagation",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3288474469445646,
-        "stdout_sha256": "646c244f1a90f8b26aa3c05cabe750528ee2265875edf28220ed0e9ea2e18000",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "solution_axioms": {
+        "Chapter02.palomar_affine_propagate_contracts": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.palomar_affine_source_preservation": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.palomar_affine_source_empty_certificate": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.palomar_affine_source_minimizer_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.palomar_compact_tightest_coordinate_enclosure": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.palomar_cutoff_bounds_preserve_minimizers": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02FBBT.palomar_qualified_simultaneous_fbbt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "Chapter02FBBT.palomar_qualified_source_fbbt": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
       },
-      {
-        "label": "build-Chapter02BBAffine",
-        "exit_code": 0,
-        "elapsed_seconds": 1.4808221739949659,
-        "stdout_sha256": "4fb3ed263d958541f2cc4cbc6770aa047c7f69508d9386bcdfe87de48365da11",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "actual_result": {
+        "path": ".usage/exports/project-s290/verification/ch02-presolve-fix04/result.json",
+        "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
+        "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+        "completed_utc": "2026-11-06T20:52:28.503319+00:00"
       },
-      {
-        "label": "build-Chapter02BBBounds",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3392927770037204,
-        "stdout_sha256": "a664cb86a4ca91965904422da9fa9cb5df7611076bbab6604b597eddb32b2034",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "reused_inputs": "Read-only shared exact pinned upstream source/import cache; all declared project modules and default targets actually built. No shared-cache write.",
+      "comparison_boundary": "All complete theorem types and every transitively referenced computational body recursively compared. Explicit source-generated recursors, when present, are fully independently completed and compared; no computational definition exemption or checker disabling.",
+      "actual_attempt_history": [
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-01/result.json",
+          "sha256": "6c0d4be046de469aed35c890c89dff511c42ca6db55086b19b4508f7eda0bea2",
+          "state": "FAILED",
+          "last_step": "comparator"
+        },
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-02/result.json",
+          "sha256": "187460b8e5712460d3d5074d200aba037ea088e35650bdb2ab52394567aab924",
+          "state": "FAILED",
+          "last_step": "comparator"
+        },
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-diag01/result.json",
+          "sha256": "31dd1fd24f48e7567bd0954b770f3037baf527587eaa91a8d025c2269691bb18",
+          "state": "PASS_BOUNDED_DIAGNOSTIC_ONLY_NOT_PACKAGE_VERIFICATION",
+          "last_step": "diagnostic-audit"
+        },
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-diag02/result.json",
+          "sha256": "9b842f42b942a4bd3a6f0f0fec77fb8a727117651d61233a2f67ab54d7169d5d",
+          "state": "PASS_BOUNDED_DIAGNOSTIC_ONLY_NOT_PACKAGE_VERIFICATION",
+          "last_step": "diagnostic-audit"
+        },
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-fix03/result.json",
+          "sha256": "2cf45ce285f864a496028e5916e4653da105adc42e237b31b44c3024f7a50ee4",
+          "state": "FAILED",
+          "last_step": "build-Challenge"
+        },
+        {
+          "path": ".usage/exports/project-s290/verification/ch02-presolve-fix04/result.json",
+          "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
+          "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+          "last_step": "comparator"
+        }
+      ],
+      "mechanical_verification": {
+        "record": "PROJECT-S290 verification/ch02-presolve-fix04/result.json",
+        "sha256": "570903e052496c0aefd25ab950846559de71f9a6f025b4e1de8298e7343e7bb9",
+        "state": "PASS_BUILD_AXIOMS_SANDBOXED_COMPARATOR_LEAN_NANODA_CONRON",
+        "actual_lean_version": "Lean (version 4.35.0, x86_64-unknown-linux-gnu, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+        "source_build": "Candidate project sources built explicitly; unchanged exact local outputs and pinned upstream caches may be reused, with upstream cache mounted read-only",
+        "cold_rebuild_claimed": false,
+        "serial_module_order": [
+          "Chapter02",
+          "Chapter02Model",
+          "Chapter02AffineBox",
+          "Chapter02AffinePropagation",
+          "Chapter02BBAffine",
+          "Chapter02BBBounds",
+          "Chapter02BBAdapter",
+          "Chapter02AffinePropagationSource",
+          "Chapter02AffinePropagationExamples",
+          "Chapter02FBBTBounds",
+          "Chapter02FBBTOperator",
+          "Chapter02FBBTOrder",
+          "Chapter02FBBTPreservation",
+          "Chapter02FBBTLP",
+          "Chapter02FBBTLimit",
+          "Chapter02FBBTContinuity",
+          "Chapter02FBBTTheorem",
+          "Chapter02FBBTBoundaryControls",
+          "Chapter02FBBTContractionControl",
+          "Chapter02FBBTContractionApplication",
+          "Chapter02FBBTSourceData",
+          "Chapter02FBBTControlData",
+          "Chapter02FBBTSourceTheorem",
+          "Chapter02FBBTSourceControl",
+          "Chapter02FBBTControls",
+          "Chapter02FBBTNegativeRhsControl",
+          "Chapter02PresolveBounds",
+          "Chapter02PresolveRedundancy",
+          "Chapter02PresolveBoundsExamples",
+          "Challenge",
+          "Solution"
+        ],
+        "steps": [
+          {
+            "label": "lean-version",
+            "exit_code": 0,
+            "elapsed_seconds": 0.04764713894110173,
+            "stdout_sha256": "eb22144228dd41cd51a0c84af4f976cd0cef473102dcf99b60be756b11f2b95a",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3134388539474458,
+            "stdout_sha256": "0f1ae9b6750da7b2737b6cda7c013ede6e99dd8a07a1f560b7157ff275de80f1",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02Model",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3577961099799722,
+            "stdout_sha256": "1d8ec2f25ce635ac0b7a522af3f8ae8e40ac2d219ff035e713492f9c1ad0da93",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02AffineBox",
+            "exit_code": 0,
+            "elapsed_seconds": 1.294642469030805,
+            "stdout_sha256": "2bf578e7756654962666759818a0f2b5b1ce86479c100c9829f9ae41391c6079",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02AffinePropagation",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3288474469445646,
+            "stdout_sha256": "646c244f1a90f8b26aa3c05cabe750528ee2265875edf28220ed0e9ea2e18000",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02BBAffine",
+            "exit_code": 0,
+            "elapsed_seconds": 1.4808221739949659,
+            "stdout_sha256": "4fb3ed263d958541f2cc4cbc6770aa047c7f69508d9386bcdfe87de48365da11",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02BBBounds",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3392927770037204,
+            "stdout_sha256": "a664cb86a4ca91965904422da9fa9cb5df7611076bbab6604b597eddb32b2034",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02BBAdapter",
+            "exit_code": 0,
+            "elapsed_seconds": 1.4802523649996147,
+            "stdout_sha256": "def58601240f013b12614fa7e885ec62dc85de7528a38cafa6fbeab2b63b02e8",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02AffinePropagationSource",
+            "exit_code": 0,
+            "elapsed_seconds": 1.413286320050247,
+            "stdout_sha256": "12c554fe7ae1c404db977bc0ada182b4d894a900bae9b9defd9f8f4044332281",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02AffinePropagationExamples",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3840685389004648,
+            "stdout_sha256": "fb62d1caa9721a26b2e9869ae22e5454bf45fd59e16a96e4f6bb908e9fb08769",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTBounds",
+            "exit_code": 0,
+            "elapsed_seconds": 1.318012794945389,
+            "stdout_sha256": "c14785408772661aee7af3fabce5be3edeb5f02157d19031c66471671e07b8ef",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTOperator",
+            "exit_code": 0,
+            "elapsed_seconds": 1.4329767860472202,
+            "stdout_sha256": "0cc66064971ccea8786605067eebc986184b33914eb9851daa032e5e16cac357",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTOrder",
+            "exit_code": 0,
+            "elapsed_seconds": 1.2916501449653879,
+            "stdout_sha256": "a2591ae0a61a35ee611e5a3f2c047b03c988af1a6274f2a86d91eb4056cb5e8c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTPreservation",
+            "exit_code": 0,
+            "elapsed_seconds": 1.423498673015274,
+            "stdout_sha256": "d65cff7a9e29b05185b9ca75755cd82c5d108fd82c5608a8fcc3d486a9f0a777",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTLP",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3464532420039177,
+            "stdout_sha256": "262da8e96609faa0d534abfe1e6aba6b55f026ccb22b1cae69cad97a1383c467",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTLimit",
+            "exit_code": 0,
+            "elapsed_seconds": 1.469628177001141,
+            "stdout_sha256": "cfd9a4ab7742fb46ec3d27f2eaaaea4f69c473a4197034fd4ca59e1c4f6348cd",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTContinuity",
+            "exit_code": 0,
+            "elapsed_seconds": 1.275315503939055,
+            "stdout_sha256": "5fdcb096515e36d8dc0fa47444ebe9d5a564269c0f981cc4f6d81105574bb41c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTTheorem",
+            "exit_code": 0,
+            "elapsed_seconds": 1.2971754930913448,
+            "stdout_sha256": "988a37b88fad9042489bfa12fddb01a2355d83ef3f5a8805e360af0f497e9484",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTBoundaryControls",
+            "exit_code": 0,
+            "elapsed_seconds": 1.61347649700474,
+            "stdout_sha256": "6b0683e570bacf560b3e547cddd5d12bc32abf0c399c255c8b8c116cb8e63571",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTContractionControl",
+            "exit_code": 0,
+            "elapsed_seconds": 1.745291909086518,
+            "stdout_sha256": "078479e31847a3033179d0ff4f652b003e0ad2e2c47e8270bcfe7dbe225c3574",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTContractionApplication",
+            "exit_code": 0,
+            "elapsed_seconds": 1.6794354049488902,
+            "stdout_sha256": "7863b1be608525225216c1ac4ddc77db566b2cd7685fe5eb51b8a172087361cb",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTSourceData",
+            "exit_code": 0,
+            "elapsed_seconds": 1.3944409489631653,
+            "stdout_sha256": "7ba7e21e0c19b33ce607e61162f88054ae821c57dfb4470b8cd3c8f3718940da",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTControlData",
+            "exit_code": 0,
+            "elapsed_seconds": 1.6066150589613244,
+            "stdout_sha256": "1608d004a482454fed83a00f24650fef8f9e1e73a1daa6b501795a54c8b08940",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTSourceTheorem",
+            "exit_code": 0,
+            "elapsed_seconds": 1.7937441780231893,
+            "stdout_sha256": "b93462243f95bdcbcb77bcc44c9c6a1f0e130d4721c8d67857ec5ec02af802af",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTSourceControl",
+            "exit_code": 0,
+            "elapsed_seconds": 2.7582441279664636,
+            "stdout_sha256": "162e5396ac94aa11e65b74300bfdaca6cbab1bf879c96d1ca0c305749613406f",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTControls",
+            "exit_code": 0,
+            "elapsed_seconds": 2.5426796230021864,
+            "stdout_sha256": "6e9a158139a2977cd4880eccd992ff72819ed8efa40ef736d2611f41ea336e7a",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02FBBTNegativeRhsControl",
+            "exit_code": 0,
+            "elapsed_seconds": 1.715658214990981,
+            "stdout_sha256": "bfb9d165c29c03480cba585c5e4ead0f36376acaf30dd2c6cdd74cf5bde45921",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02PresolveBounds",
+            "exit_code": 0,
+            "elapsed_seconds": 1.9014872499974445,
+            "stdout_sha256": "768c329de4409d927de982a2817420c7ae3e545bd275a84f9482f7db1455a406",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02PresolveRedundancy",
+            "exit_code": 0,
+            "elapsed_seconds": 1.871628561988473,
+            "stdout_sha256": "730fa45526d2bad0215de709de532dc035fe3e75fd2c67e160b0bcaa69ce6d86",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Chapter02PresolveBoundsExamples",
+            "exit_code": 0,
+            "elapsed_seconds": 1.7405496520223096,
+            "stdout_sha256": "d75bf312e97bdeeeb6991515f77af29f59358141dba7149fcd47b6f880db9904",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Challenge",
+            "exit_code": 0,
+            "elapsed_seconds": 9.71497193700634,
+            "stdout_sha256": "a3d3507f4c599b0e50134cded111cd6f3b828647102b5e6934e7ffd446f1ae04",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "build-Solution",
+            "exit_code": 0,
+            "elapsed_seconds": 1.6212636090349406,
+            "stdout_sha256": "610e3c377fdce9384fed8444d2d568f74d804489b6827fe4824a5e682f7b5d09",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "default-build",
+            "exit_code": 0,
+            "elapsed_seconds": 6.4605857389979064,
+            "stdout_sha256": "18e14023795fc6468b7a5db52c490f6188e201566145b1157ba5fd3764db9a5c",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "axioms",
+            "exit_code": 0,
+            "elapsed_seconds": 2.4433918750146404,
+            "stdout_sha256": "a9adabc53186aa703494b65b92087f138d7cd6ca52ae1d4dd428324b5c5bda82",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "label": "comparator",
+            "exit_code": 0,
+            "elapsed_seconds": 35.103934222017415,
+            "stdout_sha256": "4889575beb8c8b68c1ae7b285394e7d8cf3ccde91e5edc0b6d00618889e63112",
+            "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ],
+        "solution_axioms": {
+          "Chapter02.palomar_affine_propagate_contracts": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.palomar_affine_source_preservation": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.palomar_affine_source_empty_certificate": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.palomar_affine_source_minimizer_iff": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.palomar_compact_tightest_coordinate_enclosure": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.palomar_cutoff_bounds_preserve_minimizers": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.BBPolyData.palomar_retained_feasible_eq_of_certificates": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.BBPolyData.palomar_retained_minimizer_iff_of_certificates": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.BBPolyData.palomar_feasible_coordinate_bounds": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02.BBPolyData.palomar_feasible_cutoff_bounds_minimizer_iff": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02FBBT.palomar_qualified_simultaneous_fbbt": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ],
+          "Chapter02FBBT.palomar_qualified_source_fbbt": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "completed_utc": "2026-11-06T20:52:28.503319+00:00",
+        "resources": {
+          "memory_max": 12884901888,
+          "swap_max": 0,
+          "cpu_max": [
+            200000,
+            100000
+          ],
+          "memory_peak_bytes": 893456384,
+          "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n"
+        },
+        "kernels_passed": [
+          "Lean default",
+          "NanoDa",
+          "con-ron"
+        ],
+        "source_header_scanner_sha256": "6919911f9905fcc9f01cac96e8c98a348a192a5550a10d127b0b3ced2d74bc5a",
+        "warning_free_claimed": false,
+        "limits": [
+          "Retained actual logs may include linters, deliberate Challenge placeholder warnings and informational kernel notices.",
+          "Unchanged exact local outputs and pinned read-only upstream caches may be reused.",
+          "Runtime, compiler, upstream cache and checker binary trust remain; independent reviewer inspected receipts, did not rerun checks."
+        ]
       },
-      {
-        "label": "build-Chapter02BBAdapter",
-        "exit_code": 0,
-        "elapsed_seconds": 1.4802523649996147,
-        "stdout_sha256": "def58601240f013b12614fa7e885ec62dc85de7528a38cafa6fbeab2b63b02e8",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "unchanged_proof_compiler_inputs": {
+        "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
+        "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
+        "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
+        "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
+        "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
+        "comparator.json": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
+        "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
+        "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
+        "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
+        "Chapter02FBBTOrder.lean": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba",
+        "Chapter02FBBTOperator.lean": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591",
+        "Chapter02FBBTBoundaryControls.lean": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc",
+        "Chapter02.lean": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af",
+        "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
+        "Chapter02FBBTPreservation.lean": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee",
+        "Chapter02FBBTSourceTheorem.lean": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640",
+        "Chapter02FBBTContractionApplication.lean": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854",
+        "Chapter02Model.lean": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535",
+        "Chapter02FBBTContractionControl.lean": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896",
+        "Chapter02FBBTLimit.lean": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f",
+        "Chapter02PresolveBoundsExamples.lean": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585",
+        "Chapter02FBBTBounds.lean": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883",
+        "Chapter02AffinePropagationSource.lean": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2",
+        "Challenge.lean": "9d638704c3f8e3a588d99be2a0f7f188c9d26132ae7d410bc2942ba100247e0b",
+        "Chapter02AffineBox.lean": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297",
+        "Chapter02PresolveRedundancy.lean": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253",
+        "Chapter02FBBTNegativeRhsControl.lean": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b",
+        "Chapter02FBBTTheorem.lean": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48",
+        "AxiomAudit.lean": "eec2367529623fc7aced5343c877e49c1fadc41904da77908d4f057e4c0f7861",
+        "Chapter02BBBounds.lean": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858",
+        "Chapter02FBBTSourceControl.lean": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe",
+        "Chapter02FBBTContinuity.lean": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf",
+        "Chapter02FBBTControlData.lean": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6",
+        "lakefile.toml": "41afbc89290722c06178e1ca78e144f83e6694f3f22e5e066f893628d0eb647c",
+        "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
+        "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
       },
-      {
-        "label": "build-Chapter02AffinePropagationSource",
-        "exit_code": 0,
-        "elapsed_seconds": 1.413286320050247,
-        "stdout_sha256": "12c554fe7ae1c404db977bc0ada182b4d894a900bae9b9defd9f8f4044332281",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02AffinePropagationExamples",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3840685389004648,
-        "stdout_sha256": "fb62d1caa9721a26b2e9869ae22e5454bf45fd59e16a96e4f6bb908e9fb08769",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTBounds",
-        "exit_code": 0,
-        "elapsed_seconds": 1.318012794945389,
-        "stdout_sha256": "c14785408772661aee7af3fabce5be3edeb5f02157d19031c66471671e07b8ef",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTOperator",
-        "exit_code": 0,
-        "elapsed_seconds": 1.4329767860472202,
-        "stdout_sha256": "0cc66064971ccea8786605067eebc986184b33914eb9851daa032e5e16cac357",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTOrder",
-        "exit_code": 0,
-        "elapsed_seconds": 1.2916501449653879,
-        "stdout_sha256": "a2591ae0a61a35ee611e5a3f2c047b03c988af1a6274f2a86d91eb4056cb5e8c",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTPreservation",
-        "exit_code": 0,
-        "elapsed_seconds": 1.423498673015274,
-        "stdout_sha256": "d65cff7a9e29b05185b9ca75755cd82c5d108fd82c5608a8fcc3d486a9f0a777",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTLP",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3464532420039177,
-        "stdout_sha256": "262da8e96609faa0d534abfe1e6aba6b55f026ccb22b1cae69cad97a1383c467",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTLimit",
-        "exit_code": 0,
-        "elapsed_seconds": 1.469628177001141,
-        "stdout_sha256": "cfd9a4ab7742fb46ec3d27f2eaaaea4f69c473a4197034fd4ca59e1c4f6348cd",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTContinuity",
-        "exit_code": 0,
-        "elapsed_seconds": 1.275315503939055,
-        "stdout_sha256": "5fdcb096515e36d8dc0fa47444ebe9d5a564269c0f981cc4f6d81105574bb41c",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTTheorem",
-        "exit_code": 0,
-        "elapsed_seconds": 1.2971754930913448,
-        "stdout_sha256": "988a37b88fad9042489bfa12fddb01a2355d83ef3f5a8805e360af0f497e9484",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTBoundaryControls",
-        "exit_code": 0,
-        "elapsed_seconds": 1.61347649700474,
-        "stdout_sha256": "6b0683e570bacf560b3e547cddd5d12bc32abf0c399c255c8b8c116cb8e63571",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTContractionControl",
-        "exit_code": 0,
-        "elapsed_seconds": 1.745291909086518,
-        "stdout_sha256": "078479e31847a3033179d0ff4f652b003e0ad2e2c47e8270bcfe7dbe225c3574",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTContractionApplication",
-        "exit_code": 0,
-        "elapsed_seconds": 1.6794354049488902,
-        "stdout_sha256": "7863b1be608525225216c1ac4ddc77db566b2cd7685fe5eb51b8a172087361cb",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTSourceData",
-        "exit_code": 0,
-        "elapsed_seconds": 1.3944409489631653,
-        "stdout_sha256": "7ba7e21e0c19b33ce607e61162f88054ae821c57dfb4470b8cd3c8f3718940da",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTControlData",
-        "exit_code": 0,
-        "elapsed_seconds": 1.6066150589613244,
-        "stdout_sha256": "1608d004a482454fed83a00f24650fef8f9e1e73a1daa6b501795a54c8b08940",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTSourceTheorem",
-        "exit_code": 0,
-        "elapsed_seconds": 1.7937441780231893,
-        "stdout_sha256": "b93462243f95bdcbcb77bcc44c9c6a1f0e130d4721c8d67857ec5ec02af802af",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTSourceControl",
-        "exit_code": 0,
-        "elapsed_seconds": 2.7582441279664636,
-        "stdout_sha256": "162e5396ac94aa11e65b74300bfdaca6cbab1bf879c96d1ca0c305749613406f",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTControls",
-        "exit_code": 0,
-        "elapsed_seconds": 2.5426796230021864,
-        "stdout_sha256": "6e9a158139a2977cd4880eccd992ff72819ed8efa40ef736d2611f41ea336e7a",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02FBBTNegativeRhsControl",
-        "exit_code": 0,
-        "elapsed_seconds": 1.715658214990981,
-        "stdout_sha256": "bfb9d165c29c03480cba585c5e4ead0f36376acaf30dd2c6cdd74cf5bde45921",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02PresolveBounds",
-        "exit_code": 0,
-        "elapsed_seconds": 1.9014872499974445,
-        "stdout_sha256": "768c329de4409d927de982a2817420c7ae3e545bd275a84f9482f7db1455a406",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02PresolveRedundancy",
-        "exit_code": 0,
-        "elapsed_seconds": 1.871628561988473,
-        "stdout_sha256": "730fa45526d2bad0215de709de532dc035fe3e75fd2c67e160b0bcaa69ce6d86",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Chapter02PresolveBoundsExamples",
-        "exit_code": 0,
-        "elapsed_seconds": 1.7405496520223096,
-        "stdout_sha256": "d75bf312e97bdeeeb6991515f77af29f59358141dba7149fcd47b6f880db9904",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Challenge",
-        "exit_code": 0,
-        "elapsed_seconds": 9.71497193700634,
-        "stdout_sha256": "a3d3507f4c599b0e50134cded111cd6f3b828647102b5e6934e7ffd446f1ae04",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "build-Solution",
-        "exit_code": 0,
-        "elapsed_seconds": 1.6212636090349406,
-        "stdout_sha256": "610e3c377fdce9384fed8444d2d568f74d804489b6827fe4824a5e682f7b5d09",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "default-build",
-        "exit_code": 0,
-        "elapsed_seconds": 6.4605857389979064,
-        "stdout_sha256": "18e14023795fc6468b7a5db52c490f6188e201566145b1157ba5fd3764db9a5c",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "axioms",
-        "exit_code": 0,
-        "elapsed_seconds": 2.4433918750146404,
-        "stdout_sha256": "a9adabc53186aa703494b65b92087f138d7cd6ca52ae1d4dd428324b5c5bda82",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-      },
-      {
-        "label": "comparator",
-        "exit_code": 0,
-        "elapsed_seconds": 35.103934222017415,
-        "stdout_sha256": "4889575beb8c8b68c1ae7b285394e7d8cf3ccde91e5edc0b6d00618889e63112",
-        "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "documentary_closure": "Coordinator retains independent exact-delta closure separately; this file does not certify its own successor.",
+      "new_public_commit": false,
+      "submitted": false,
+      "registered": false,
+      "additional_unchanged_diagnostic_inputs": {
+        "MatcherDiagnostics.lean": "b0ee6b1ac2f2a6ac725dc7d1a42a9c444d43481e98256e236426550e9f3aaa03"
       }
-    ],
-    "solution_axioms": {
+    }
+  },
+  "private_material_policy": "Neutral selection curation only; no private automated editorial review content, credential or submission token included.",
+  "retained_axiom_print_reports": {
+    "scope": "Separate reconciliation of actual twelve-row AxiomAudit output; not twelve selected Comparator roots.",
+    "reports": {
       "Chapter02.palomar_affine_propagate_contracts": [
         "Classical.choice",
         "Quot.sound",
@@ -559,73 +1347,22 @@
         "propext"
       ]
     },
-    "completed_utc": "2026-11-06T20:52:28.503319+00:00",
-    "resources": {
-      "memory_max": 12884901888,
-      "swap_max": 0,
-      "cpu_max": [
-        200000,
-        100000
-      ],
-      "memory_peak_bytes": 893456384,
-      "memory_events": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0\n"
-    },
-    "kernels_passed": [
-      "Lean default",
-      "NanoDa",
-      "con-ron"
-    ],
-    "source_header_scanner_sha256": "6919911f9905fcc9f01cac96e8c98a348a192a5550a10d127b0b3ced2d74bc5a",
-    "warning_free_claimed": false,
-    "limits": [
-      "Retained actual logs may include linters, deliberate Challenge placeholder warnings and informational kernel notices.",
-      "Unchanged exact local outputs and pinned read-only upstream caches may be reused.",
-      "Runtime, compiler, upstream cache and checker binary trust remain; independent reviewer inspected receipts, did not rerun checks."
-    ]
+    "all_standard_allowed": true,
+    "log": {
+      "path": ".usage/exports/project-s290/verification/ch02-fbbt-core-s304-full01/034-axioms.stdout.txt",
+      "sha256": "a9adabc53186aa703494b65b92087f138d7cd6ca52ae1d4dd428324b5c5bda82",
+      "bytes": 1382
+    }
   },
-  "unchanged_proof_compiler_inputs": {
-    "Chapter02AffinePropagationExamples.lean": "7d88a2ded5c21fb43b855460b3c6730bb1db19b21ff4356d6567ec75eba94a35",
-    "Chapter02BBAffine.lean": "af22d739f6da2958d6f70e1430352143a03a1f25c991250963af72f640cd204c",
-    "Chapter02FBBTSourceData.lean": "6ea7990e1a0b27decb43384339559928438a9b8b900a4e7bb1e78e4bc14d0b3b",
-    "Chapter02FBBTLP.lean": "842dbfb62259abb8c5d348eb39200bdb587873d901faa14d4ab1a9694bbf1f39",
-    "Chapter02PresolveBounds.lean": "328577c1c339cd4ec973d584b8433b075f9aab768660cfe0fefe8cd6f2678b3f",
-    "comparator.json": "b9faab0a6bf11dac83d42740867f34aad09a8e64a95b8b5a63b11e0a85b71b04",
-    "Chapter02FBBTControls.lean": "875bed00127466b2597501fd4adffaf1f132861c06e575221180850f505ce9ed",
-    "lake-manifest.json": "b5da775b384405e87ffd6321cb134531e7ea43d66c8cef8a7b193da48cd212fb",
-    "Solution.lean": "7d5c3a1f691321915f9bc3b195289a5ef2afa6e06d83e10661e115c7b1c78e31",
-    "Chapter02FBBTOrder.lean": "90ea62fee61ebacee1b48590b6b5d3633337c6ec496e1a4d074666cb93cc69ba",
-    "Chapter02FBBTOperator.lean": "f0539df76ba172c00665ffae5a1fd6e06a9418d1d7a2421381939d6fef38b591",
-    "Chapter02FBBTBoundaryControls.lean": "481620e49e1dbe8e8258ad90605a4145eeb4af442eece37426ef80195fab32cc",
-    "Chapter02.lean": "3019ef1caad4ab531143bd937fae56812bb9959a658bbe7368b5d5c761cc08af",
-    "lean-toolchain": "ca5f1f601d34c49079e38d7e7041eb0f2a9c227fbc1df0f404820069a052330c",
-    "Chapter02FBBTPreservation.lean": "89608f290243439a82196862e2f096e8fba7cf0e1309ed36fcb5e6fc7279d1ee",
-    "Chapter02FBBTSourceTheorem.lean": "8fffa192c16e9bb67781110cf5a006e74d9f329d66bec50e789c39041eddc640",
-    "Chapter02FBBTContractionApplication.lean": "5618f7f5a705a8c9a8bb6a5f61df9203764c5196010d24aea68805c101d76854",
-    "Chapter02Model.lean": "01043a5cc7eb7291f008533cf2c8276773368541a7a15ef83756f50fc6f3a535",
-    "Chapter02FBBTContractionControl.lean": "55e0866231faa9fa920b3379caf565befa83c14c143a7027db7bffa001386896",
-    "Chapter02FBBTLimit.lean": "e2922365d1a7ae153f18655c6e07ea8c187042adfb6d5f9d6b0cbde7938cb18f",
-    "Chapter02PresolveBoundsExamples.lean": "56e85bd64a335f962ebe23a92a3bc2d37e7e69f0cc7ede01ffe52aaefbbab585",
-    "Chapter02FBBTBounds.lean": "5b1416652f48ac37d6d553d37fc47d8d977cb5b67eb904f7fc69010667e7d883",
-    "Chapter02AffinePropagationSource.lean": "956a57e3a03d22e6b6fe651c4bcbeeaaf8254fca74787d8807281eec530ca9a2",
-    "Challenge.lean": "9d638704c3f8e3a588d99be2a0f7f188c9d26132ae7d410bc2942ba100247e0b",
-    "Chapter02AffineBox.lean": "2b3d371ef64d144eb2b94bb701120c4b989852d5741d2bd279cb082b7c218297",
-    "Chapter02PresolveRedundancy.lean": "5e8a7cfb1b78f5347d61955d587a194be96095a84e62bcc6c72cfa57a8b48253",
-    "Chapter02FBBTNegativeRhsControl.lean": "415f6b348cb8d43dfd676f5c5d2b1f45fe55c150b4597590cd17a3787077635b",
-    "Chapter02FBBTTheorem.lean": "79cbc6780607de1d9017bfd4bd606c5914d1361dde147cfe13a7d8c399401a48",
-    "AxiomAudit.lean": "eec2367529623fc7aced5343c877e49c1fadc41904da77908d4f057e4c0f7861",
-    "Chapter02BBBounds.lean": "e02d81ba527595e5868e2a2f03c4e90e0df9dc2f883280f3dbbea1a7073cd858",
-    "Chapter02FBBTSourceControl.lean": "6c374d9f932abfe150c3a8324b66ff26ce03b2984d9a8ce60ad4cff60ccddebe",
-    "Chapter02FBBTContinuity.lean": "8c3ae56e3cc16b342ddf350c62b7c7ec061fd2fc56a0ea6898f48b51c431bdaf",
-    "Chapter02FBBTControlData.lean": "a6ced3368a22d6791464ccecca31972733d970b48c0f7fb4ab254e8a8b148ea6",
-    "lakefile.toml": "41afbc89290722c06178e1ca78e144f83e6694f3f22e5e066f893628d0eb647c",
-    "Chapter02AffinePropagation.lean": "3c207d129efabf3c01c0a2ea882b4d2a902a91f3aa6d442a7cbaf905af6b63a6",
-    "Chapter02BBAdapter.lean": "870d7f677014fe5c0026ce3da9e4c10e9d6cb09edee014f3663b75347f5fa8e5"
-  },
-  "documentary_closure": "Coordinator retains independent exact-delta closure separately; this file does not certify its own successor.",
-  "new_public_commit": false,
-  "submitted": false,
-  "registered": false,
-  "additional_unchanged_diagnostic_inputs": {
-    "MatcherDiagnostics.lean": "b0ee6b1ac2f2a6ac725dc7d1a42a9c444d43481e98256e236426550e9f3aaa03"
+  "issuance_stage": {
+    "at_utc": "2026-11-09T16:18:49.157215+00:00",
+    "pre_git": true,
+    "full_local_verification": "PASS",
+    "independent_local_agent_technical_packet_review": "accepted at exact pre-review freeze",
+    "final_documentary_schema_closure": "pending external receipt",
+    "clean_archive_git_history_closure": "pending external receipt",
+    "hosted_preflight": "not run for successor at issuance",
+    "publication_intake_registration": "not performed or authorized at issuance",
+    "local_ready_claimed": false
   }
 }
